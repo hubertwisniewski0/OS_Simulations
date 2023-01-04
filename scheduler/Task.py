@@ -1,0 +1,37 @@
+from enum import Enum, auto
+
+
+class TaskStatus(Enum):
+    Waiting = auto()
+    Running = auto()
+    Complete = auto()
+
+
+class Task:
+    def __init__(self, task_id: int, come_time: int, duration: int):
+        self.task_id = task_id
+        self.come_time = come_time
+        self.duration = duration
+        self.status = TaskStatus.Waiting
+        self.start_time = None
+        self.total_runtime = 0
+
+    def start(self, start_time: int):
+        assert self.status == TaskStatus.Waiting
+
+        self.status = TaskStatus.Running
+        self.start_time = start_time
+
+    def tick(self):
+        assert self.status == TaskStatus.Running and self.total_runtime < self.duration
+
+        self.total_runtime += 1
+        if self.total_runtime == self.duration:
+            self.status = TaskStatus.Complete
+
+    def is_complete(self) -> bool:
+        return self.status == TaskStatus.Complete
+
+    def get_wait_time(self) -> int:
+        assert self.status != TaskStatus.Waiting
+        return self.start_time - self.come_time
