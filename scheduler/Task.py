@@ -10,6 +10,10 @@ class TaskStatus(Enum):
 
 class Task(Serializable):
     def __init__(self, task_id: int, come_time: int, duration: int):
+        assert task_id >= 0
+        assert come_time >= 0
+        assert duration > 0
+
         self.task_id = task_id
         self.come_time = come_time
         self.duration = duration
@@ -24,7 +28,8 @@ class Task(Serializable):
         self.start_time = start_time
 
     def tick(self):
-        assert self.status == TaskStatus.Running and self.total_runtime < self.duration
+        assert self.status == TaskStatus.Running
+        assert self.total_runtime < self.duration
 
         self.total_runtime += 1
         if self.total_runtime == self.duration:
