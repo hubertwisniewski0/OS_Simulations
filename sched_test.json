@@ -1,7 +1,7 @@
 [
   {
     "come_time": 4,
-    "duration": 12
+    "duration": 4
   },
   {
     "come_time": 2,
@@ -9,6 +9,6 @@
   },
   {
     "come_time": 3,
-    "duration": 4
+    "duration": 12
   }
 ]

@@ -1,7 +1,9 @@
+from copy import deepcopy
 from typing import List, Dict
 import json
 from argparse import ArgumentParser
 from scheduler.SchedulerFCFS import SchedulerFCFS
+from scheduler.SchedulerSJF import SchedulerSJF
 from scheduler.Task import Task
 from utils.Encoder import Encoder
 
@@ -19,9 +21,17 @@ for input_task in input_data:
     tasks.append(Task(task_id_counter, input_task['come_time'], input_task['duration']))
     task_id_counter += 1
 
-sched = SchedulerFCFS(tasks)
+sched_fcfs = SchedulerFCFS(deepcopy(tasks))
 
-while sched.tick():
+while sched_fcfs.tick():
     pass
 
-print(json.dumps(sched, cls=Encoder, indent=4))
+sched_sjf = SchedulerSJF(deepcopy(tasks))
+
+while sched_sjf.tick():
+    pass
+
+print(json.dumps(
+    {"FCFS": sched_fcfs,
+     "SJF": sched_sjf}
+    , cls=Encoder, indent=4))
