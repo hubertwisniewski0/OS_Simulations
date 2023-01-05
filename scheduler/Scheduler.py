@@ -1,8 +1,9 @@
 from typing import List, Optional
+from utils.Serializable import Serializable
 from scheduler.Task import Task
 
 
-class Scheduler:
+class Scheduler(Serializable):
     def __init__(self, task_list: List[Task]):
         self.task_list = task_list
         self.waiting_tasks: List[Task] = []
@@ -47,6 +48,11 @@ class Scheduler:
             self.task_list.remove(task)
 
         self.waiting_tasks += new_waiting_tasks
+
+    def serialize(self):
+        return {"total_time": self.current_time,
+                "total_idle_time": self.total_idle_time,
+                "complete_tasks": self.complete_tasks}
 
     def select_next_task(self) -> Optional[Task]:
         raise NotImplementedError()

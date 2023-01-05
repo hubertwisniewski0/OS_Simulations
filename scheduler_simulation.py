@@ -3,7 +3,7 @@ import json
 from argparse import ArgumentParser
 from scheduler.SchedulerFCFS import SchedulerFCFS
 from scheduler.Task import Task
-from scheduler.Encoder import Encoder
+from utils.Encoder import Encoder
 
 ap = ArgumentParser()
 ap.add_argument('input_file', help='Data input file')
