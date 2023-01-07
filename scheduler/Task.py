@@ -43,7 +43,9 @@ class Task(Serializable):
         return self.start_time - self.come_time
 
     def serialize(self):
-        return {"task_id": self.task_id,
-                "come_time": self.come_time,
-                "duration": self.duration,
-                "wait_time": self.get_wait_time()}
+        return {
+            "task_id": self.task_id,
+            "come_time": self.come_time,
+            "duration": self.duration,
+            "wait_time": self.get_wait_time()
+        }

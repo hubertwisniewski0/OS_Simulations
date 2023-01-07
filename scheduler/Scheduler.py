@@ -57,10 +57,12 @@ class Scheduler(Serializable):
         return t/len(self.complete_tasks)
 
     def serialize(self):
-        return {"total_time": self.current_time,
-                "total_idle_time": self.total_idle_time,
-                "average_task_wait_time": self.get_average_task_wait_time(),
-                "complete_tasks": self.complete_tasks}
+        return {
+            "total_time": self.current_time,
+            "total_idle_time": self.total_idle_time,
+            "average_task_wait_time": self.get_average_task_wait_time(),
+            "complete_tasks": self.complete_tasks
+        }
 
     def select_next_task(self) -> Optional[Task]:
         raise NotImplementedError()
