@@ -1,6 +1,7 @@
 import json
 from copy import deepcopy
-from typing import Optional, List
+from typing import Optional, List, Dict
+from .Scheduler import Scheduler
 from .SchedulerFCFS import SchedulerFCFS
 from .SchedulerLottery import SchedulerLottery
 from .SchedulerSJF import SchedulerSJF
@@ -16,23 +17,19 @@ class SimulationDescription:
 class SchedulerGroup(Serializable):
     def __init__(self, simulation: SimulationDescription):
         self.simulation = simulation
-        self.sched_fcfs: Optional[SchedulerFCFS] = None
-        self.sched_sjf: Optional[SchedulerSJF] = None
-        self.sched_lottery: Optional[SchedulerLottery] = None
+        self.schedulers: Dict[str, Scheduler] = {}
 
     def simulate(self):
-        self.sched_fcfs = SchedulerFCFS(deepcopy(self.simulation.task_list))
-        self.sched_sjf = SchedulerSJF(deepcopy(self.simulation.task_list))
-        self.sched_lottery = SchedulerLottery(deepcopy(self.simulation.task_list), self.simulation.lottery_seed)
+        self.schedulers["FCFS"] = SchedulerFCFS(deepcopy(self.simulation.task_list))
+        self.schedulers["SJF"] = SchedulerSJF(deepcopy(self.simulation.task_list))
+        self.schedulers["Lottery"] = SchedulerLottery(deepcopy(self.simulation.task_list), self.simulation.lottery_seed)
 
-        for sched in [self.sched_fcfs, self.sched_sjf, self.sched_lottery]:
-            while sched.tick():
+        for scheduler in self.schedulers.values():
+            while scheduler.tick():
                 pass
 
     def serialize(self):
-        return {"FCFS": self.sched_fcfs,
-                "SJF": self.sched_sjf,
-                "Lottery": self.sched_lottery}
+        return self.schedulers
 
 
 class SchedulerSimulation(Serializable):
