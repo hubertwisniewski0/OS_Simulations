@@ -1,6 +1,6 @@
 from typing import List, Optional
 from utils.Serializable import Serializable
-from scheduler.Task import Task
+from .Task import Task
 
 
 class Scheduler(Serializable):

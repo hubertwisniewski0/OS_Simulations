@@ -1,10 +1,10 @@
 import json
 from copy import deepcopy
 from typing import Optional, List
-from scheduler.SchedulerFCFS import SchedulerFCFS
-from scheduler.SchedulerLottery import SchedulerLottery
-from scheduler.SchedulerSJF import SchedulerSJF
-from scheduler.Task import Task
+from .SchedulerFCFS import SchedulerFCFS
+from .SchedulerLottery import SchedulerLottery
+from .SchedulerSJF import SchedulerSJF
+from .Task import Task
 from utils.Serializable import Serializable
 
 

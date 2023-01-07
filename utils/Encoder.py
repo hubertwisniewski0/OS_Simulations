@@ -1,6 +1,6 @@
 from typing import Any
 from json import JSONEncoder
-from utils.Serializable import Serializable
+from .Serializable import Serializable
 
 
 class Encoder(JSONEncoder):
