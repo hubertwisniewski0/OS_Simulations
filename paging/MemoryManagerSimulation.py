@@ -3,6 +3,9 @@ from typing import Dict, List
 from utils.Serializable import Serializable
 from .MemoryManager import MemoryManager
 from .MemoryManagerFIFO import MemoryManagerFIFO
+from .MemoryManagerLFU import MemoryManagerLFU
+from .MemoryManagerMFU import MemoryManagerMFU
+from .MemoryManagerOptimal import MemoryManagerOptimal
 
 
 class SimulationDescription:
@@ -17,7 +20,14 @@ class MemoryManagerGroup(Serializable):
 
     def simulate(self):
         for memory_size in self.simulation.memory_sizes:
-            self.memory_managers["_".join(["FIFO", str(memory_size)])] = MemoryManagerFIFO(self.simulation.access_list, memory_size)
+            self.memory_managers["_".join(["FIFO", str(memory_size)])] =\
+                MemoryManagerFIFO(self.simulation.access_list, memory_size)
+            self.memory_managers["_".join(["LFU", str(memory_size)])] =\
+                MemoryManagerLFU(self.simulation.access_list, memory_size)
+            self.memory_managers["_".join(["MFU", str(memory_size)])] =\
+                MemoryManagerMFU(self.simulation.access_list, memory_size)
+            self.memory_managers["_".join(["Optimal", str(memory_size)])] =\
+                MemoryManagerOptimal(self.simulation.access_list, memory_size)
 
         for memory_manager in self.memory_managers.values():
             memory_manager.process_all()
