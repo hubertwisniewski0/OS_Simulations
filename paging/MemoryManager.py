@@ -17,6 +17,7 @@ class MemoryManager(Serializable):
         self.all_pages: List[Page] = []
         self.cached_pages: List[Page] = []
         self.page_faults = 0
+        self.current_cycle = 0
         self.memory_states: List[List[Page]] = []
 
     def process_all(self):
@@ -30,13 +31,19 @@ class MemoryManager(Serializable):
                     self.remove_victim()
                     self.load_page(page_number)
 
+            self.use_page(page_number)
             self.memory_states.append(deepcopy(self.cached_pages))
+
+            self.current_cycle += 1
 
     def is_cached(self, page_number: int) -> bool:
         return self.get_page(page_number, self.cached_pages) is not None
 
     def page_exists(self, page_number) -> bool:
         return self.get_page(page_number, self.all_pages) is not None
+
+    def use_page(self, page_number):
+        self.get_page(page_number, self.all_pages).use()
 
     def load_page(self, page_number):
         assert len(self.cached_pages) <= self.memory_size
