@@ -1,5 +1,4 @@
 from typing import Dict
-from copy import deepcopy
 from .SimulationDescription import SimulationDescription
 from ..core.Scheduler import Scheduler
 from ..algo.SchedulerFCFS import SchedulerFCFS
@@ -14,10 +13,9 @@ class SchedulerGroup(Serializable):
         self.schedulers: Dict[str, Scheduler] = {}
 
     def simulate(self):
-        # TODO: make deepcopy scheduler's responsibility
-        self.schedulers["FCFS"] = SchedulerFCFS(deepcopy(self.simulation.task_list))
-        self.schedulers["SJF"] = SchedulerSJF(deepcopy(self.simulation.task_list))
-        self.schedulers["Lottery"] = SchedulerLottery(deepcopy(self.simulation.task_list), self.simulation.lottery_seed)
+        self.schedulers["FCFS"] = SchedulerFCFS(self.simulation.task_list)
+        self.schedulers["SJF"] = SchedulerSJF(self.simulation.task_list)
+        self.schedulers["Lottery"] = SchedulerLottery(self.simulation.task_list, self.simulation.lottery_seed)
 
         for scheduler in self.schedulers.values():
             while scheduler.tick():

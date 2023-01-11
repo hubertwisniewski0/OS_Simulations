@@ -1,11 +1,12 @@
 from typing import List, Optional
+from copy import deepcopy
 from utils.Serializable import Serializable
 from .Task import Task
 
 
 class Scheduler(Serializable):
     def __init__(self, task_list: List[Task]):
-        self.task_list = task_list
+        self.task_list = deepcopy(task_list)
         self.waiting_tasks: List[Task] = []
         self.complete_tasks: List[Task] = []
         self.current_task: Optional[Task] = None
