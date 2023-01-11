@@ -2,7 +2,7 @@ import json
 from typing import List
 from .SchedulerGroup import SchedulerGroup
 from .SimulationDescription import SimulationDescription
-from ..core.Task import Task
+from ..core.TaskFactory import TaskFactory
 from utils.Serializable import Serializable
 
 
@@ -18,13 +18,10 @@ class SchedulerSimulation(Serializable):
         for item in input_data:
             desc = SimulationDescription()
             desc.lottery_seed = item["lottery_seed"]
-            desc.task_list = []
 
-            # TODO: Task factory
-            task_id_counter = 0
-            for task in item["task_list"]:
-                desc.task_list.append(Task(task_id_counter, task["come_time"], task["duration"]))
-                task_id_counter += 1
+            task_factory = TaskFactory()
+            desc.task_list = [task_factory.create_task(task["come_time"], task["duration"]) for task in
+                              item["task_list"]]
 
             self.simulations.append(desc)
 
