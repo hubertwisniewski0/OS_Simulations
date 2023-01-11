@@ -49,10 +49,10 @@ class Scheduler(Serializable):
 
         self.waiting_tasks += new_waiting_tasks
 
-    def get_average_task_wait_time(self) -> float:
+    def get_average_task_waiting_time(self) -> float:
         t = 0
         for task in self.complete_tasks:
-            t += task.get_wait_time()
+            t += task.get_waiting_time()
 
         return t/len(self.complete_tasks)
 
@@ -67,7 +67,7 @@ class Scheduler(Serializable):
         return {
             "total_time": self.current_time,
             "total_idle_time": self.total_idle_time,
-            "average_task_wait_time": self.get_average_task_wait_time(),
+            "average_task_waiting_time": self.get_average_task_waiting_time(),
             "average_task_turnaround_time": self.get_average_task_turnaround_time(),
             "complete_tasks": self.complete_tasks
         }

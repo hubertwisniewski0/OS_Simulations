@@ -38,18 +38,18 @@ class Task(Serializable):
     def is_complete(self) -> bool:
         return self.status == TaskStatus.Complete
 
-    def get_wait_time(self) -> int:
+    def get_waiting_time(self) -> int:
         assert self.status != TaskStatus.Waiting
         return self.start_time - self.come_time
 
     def get_turnaround_time(self) -> int:
-        return self.get_wait_time() + self.duration
+        return self.get_waiting_time() + self.duration
 
     def serialize(self):
         return {
             "task_id": self.task_id,
             "come_time": self.come_time,
             "duration": self.duration,
-            "wait_time": self.get_wait_time(),
+            "waiting_time": self.get_waiting_time(),
             "turnaround_time": self.get_turnaround_time()
         }
