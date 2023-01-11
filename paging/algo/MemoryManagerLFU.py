@@ -1,4 +1,4 @@
-from .MemoryManager import MemoryManager
+from ..core.MemoryManager import MemoryManager
 
 
 class MemoryManagerLFU(MemoryManager):

@@ -1,7 +1,7 @@
 from random import Random
 from typing import Optional, List
-from .Scheduler import Scheduler
-from .Task import Task
+from ..core.Scheduler import Scheduler
+from ..core.Task import Task
 
 
 class SchedulerLottery(Scheduler):

@@ -1,6 +1,6 @@
 from typing import Optional
-from .Scheduler import Scheduler
-from .Task import Task
+from ..core.Scheduler import Scheduler
+from ..core.Task import Task
 
 
 class SchedulerFCFS(Scheduler):

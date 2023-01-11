@@ -1,6 +1,6 @@
 import json
 from argparse import ArgumentParser
-from scheduler.SchedulerSimulation import SchedulerSimulation
+from sched.sim.SchedulerSimulation import SchedulerSimulation
 from utils.Encoder import Encoder
 
 ap = ArgumentParser()

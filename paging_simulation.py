@@ -1,6 +1,6 @@
 import json
 from argparse import ArgumentParser
-from paging.MemoryManagerSimulation import MemoryManagerSimulation
+from paging.sim.MemoryManagerSimulation import MemoryManagerSimulation
 from utils.Encoder import Encoder
 
 ap = ArgumentParser()
