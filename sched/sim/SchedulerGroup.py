@@ -4,6 +4,7 @@ from ..core.Scheduler import Scheduler
 from ..algo.SchedulerFCFS import SchedulerFCFS
 from ..algo.SchedulerSJF import SchedulerSJF
 from ..algo.SchedulerLottery import SchedulerLottery
+from ..algo.SchedulerOptimal import SchedulerOptimal
 from utils.Serializable import Serializable
 
 
@@ -16,6 +17,7 @@ class SchedulerGroup(Serializable):
         self.schedulers["FCFS"] = SchedulerFCFS(self.simulation.task_list)
         self.schedulers["SJF"] = SchedulerSJF(self.simulation.task_list)
         self.schedulers["Lottery"] = SchedulerLottery(self.simulation.task_list, self.simulation.lottery_seed)
+        self.schedulers["Optimal"] = SchedulerOptimal(self.simulation.task_list)
 
         for scheduler in self.schedulers.values():
             while scheduler.tick():
