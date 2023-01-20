@@ -1,5 +1,5 @@
 from enum import Enum, auto
-from utils.Serializable import Serializable
+from .TaskBase import TaskBase
 
 
 class TaskStatus(Enum):
@@ -8,15 +8,13 @@ class TaskStatus(Enum):
     Complete = auto()
 
 
-class Task(Serializable):
+class Task(TaskBase):
     def __init__(self, task_id: int, come_time: int, duration: int):
+        super().__init__(come_time, duration)
+
         assert task_id >= 0
-        assert come_time >= 0
-        assert duration > 0
 
         self.task_id = task_id
-        self.come_time = come_time
-        self.duration = duration
         self.status = TaskStatus.Waiting
         self.start_time = None
         self.total_runtime = 0
