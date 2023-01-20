@@ -2,6 +2,7 @@ import json
 from typing import List
 from .SchedulerGroup import SchedulerGroup
 from .SimulationDescription import SimulationDescription
+from .SimulationPlotter import SimulationPlotter
 from ..core.TaskFactory import TaskFactory
 from utils.Serializable import Serializable
 
@@ -30,6 +31,11 @@ class SchedulerSimulation(Serializable):
             sched_group = SchedulerGroup(simulation)
             self.scheduler_groups.append(sched_group)
             sched_group.simulate()
+
+    def create_plot(self, output_file: str):
+        plotter = SimulationPlotter()
+        plotter.generate_plot(self.scheduler_groups)
+        plotter.save_plot(output_file)
 
     def serialize(self):
         return self.scheduler_groups
