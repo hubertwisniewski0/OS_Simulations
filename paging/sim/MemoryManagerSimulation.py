@@ -2,6 +2,7 @@ import json
 from typing import List
 from .SimulationDescription import SimulationDescription
 from .MemoryManagerGroup import MemoryManagerGroup
+from .SimulationPlotter import SimulationPlotter
 from utils.Serializable import Serializable
 
 
@@ -26,6 +27,11 @@ class MemoryManagerSimulation(Serializable):
             memory_manager_group = MemoryManagerGroup(simulation)
             self.memory_manager_groups.append(memory_manager_group)
             memory_manager_group.simulate()
+
+    def create_plot(self, output_file: str):
+        plotter = SimulationPlotter()
+        plotter.generate_plot(self.memory_manager_groups)
+        plotter.save_plot(output_file)
 
     def serialize(self):
         return self.memory_manager_groups
