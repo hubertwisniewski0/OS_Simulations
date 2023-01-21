@@ -9,33 +9,33 @@ class SimulationPlotter:
         self.axes = None
 
     def generate_plot(self, scheduler_groups: List[SchedulerGroup]):
-        self.figure, self.axes = pyplot.subplots()
-
         data_turnaround_time: Dict[str, List[float]] = {}
         data_waiting_time: Dict[str, List[float]] = {}
 
         for scheduler_group in scheduler_groups:
-            for scheduler in scheduler_group.schedulers.keys():
-                if scheduler not in data_turnaround_time.keys():
-                    data_turnaround_time[scheduler] = []
-                if scheduler not in data_waiting_time.keys():
-                    data_waiting_time[scheduler] = []
+            for scheduler_algo, scheduler in scheduler_group.schedulers.items():
+                if scheduler_algo not in data_turnaround_time.keys():
+                    data_turnaround_time[scheduler_algo] = []
+                if scheduler_algo not in data_waiting_time.keys():
+                    data_waiting_time[scheduler_algo] = []
 
-                data_turnaround_time[scheduler].append(
-                    scheduler_group.schedulers[scheduler].get_average_task_turnaround_time())
-                data_waiting_time[scheduler].append(
-                    scheduler_group.schedulers[scheduler].get_average_task_waiting_time())
+                data_turnaround_time[scheduler_algo].append(scheduler.get_average_task_turnaround_time())
+                data_waiting_time[scheduler_algo].append(scheduler.get_average_task_waiting_time())
 
-        for scheduler in data_turnaround_time.keys():
-            self.axes.plot(data_turnaround_time[scheduler], '.', label=scheduler + ' (turnaround)')
+        self.figure, self.axes = pyplot.subplots(2, sharex='col')
 
-        for scheduler in data_waiting_time.keys():
-            self.axes.plot(data_waiting_time[scheduler], '+', label=scheduler + ' (waiting)')
+        data = [data_turnaround_time, data_waiting_time]
+        for i in range(2):
+            for scheduler_algo, scheduler_stats in data[i].items():
+                self.axes[i].plot(scheduler_stats, '.', label=scheduler_algo)
 
-        self.axes.set_title('Average turnaround/waiting time vs simulation number')
-        self.axes.set_xlabel('Simulation')
-        self.axes.set_ylabel('Average turnaround/waiting time [cycles]')
-        self.axes.legend(framealpha=0.5, fontsize='xx-small', markerscale=0.5)
+        self.axes[0].set_title('Turnaround time', fontsize='x-small')
+        self.axes[1].set_title('Waiting time', fontsize='x-small')
+
+        self.figure.suptitle('Average turnaround/waiting time vs simulation number')
+        self.figure.supxlabel('Simulation')
+        self.figure.supylabel('Average turnaround/waiting time [cycles]')
+        self.axes[0].legend(framealpha=0.5, fontsize='xx-small', markerscale=0.5)
 
     def save_plot(self, output_file: str):
         self.figure.savefig(output_file)
