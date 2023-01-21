@@ -19,8 +19,8 @@ class SimulationPlotter:
                 if scheduler_algo not in data_waiting_time.keys():
                     data_waiting_time[scheduler_algo] = []
 
-                data_turnaround_time[scheduler_algo].append(scheduler.get_average_task_turnaround_time())
-                data_waiting_time[scheduler_algo].append(scheduler.get_average_task_waiting_time())
+                data_turnaround_time[scheduler_algo].append(scheduler.average_task_turnaround_time)
+                data_waiting_time[scheduler_algo].append(scheduler.average_task_waiting_time)
 
         self.figure, self.axes = pyplot.subplots(2, sharex='col')
 

@@ -18,12 +18,15 @@ class Task(TaskBase):
         self.status = TaskStatus.Waiting
         self.start_time = None
         self.total_runtime = 0
+        self.waiting_time = None
+        self.turnaround_time = None
 
     def start(self, start_time: int):
         assert self.status == TaskStatus.Waiting
 
         self.status = TaskStatus.Running
         self.start_time = start_time
+        self.waiting_time = start_time - self.come_time
 
     def tick(self):
         assert self.status == TaskStatus.Running
@@ -32,22 +35,16 @@ class Task(TaskBase):
         self.total_runtime += 1
         if self.total_runtime == self.duration:
             self.status = TaskStatus.Complete
+            self.turnaround_time = self.waiting_time + self.duration
 
     def is_complete(self) -> bool:
         return self.status == TaskStatus.Complete
-
-    def get_waiting_time(self) -> int:
-        assert self.status != TaskStatus.Waiting
-        return self.start_time - self.come_time
-
-    def get_turnaround_time(self) -> int:
-        return self.get_waiting_time() + self.duration
 
     def serialize(self):
         return {
             "task_id": self.task_id,
             "come_time": self.come_time,
             "duration": self.duration,
-            "waiting_time": self.get_waiting_time(),
-            "turnaround_time": self.get_turnaround_time()
+            "waiting_time": self.waiting_time,
+            "turnaround_time": self.turnaround_time
         }

@@ -1,5 +1,6 @@
 import json
-from typing import List
+from typing import List, Dict
+from numpy import average
 from concurrent.futures import ProcessPoolExecutor, Future
 from .SchedulerGroup import SchedulerGroup
 from .SimulationDescription import SimulationDescription
@@ -14,6 +15,8 @@ class SchedulerSimulation(Serializable):
         self.simulations: List[SimulationDescription] = []
         self.jobs = jobs
         self.enable_optimal = enable_optimal
+        self.average_waiting_times: Dict[str, float] = {}
+        self.average_turnaround_times: Dict[str, float] = {}
 
     def read_data(self, input_file_name: str):
         with open(input_file_name, 'rt') as f:
@@ -40,10 +43,36 @@ class SchedulerSimulation(Serializable):
         for i in range(len(futures)):
             self.scheduler_groups[i] = futures[i].result()
 
+        self.generate_stats()
+
     def create_plot(self, output_file: str):
         plotter = SimulationPlotter()
         plotter.generate_plot(self.scheduler_groups)
         plotter.save_plot(output_file)
 
+    def generate_stats(self):
+        waiting_times: Dict[str, List[int]] = {}
+        turnaround_times: Dict[str, List[int]] = {}
+
+        for sched_group in self.scheduler_groups:
+            for sched_name, sched in sched_group.schedulers.items():
+                if sched_name not in waiting_times.keys():
+                    waiting_times[sched_name] = []
+                if sched_name not in turnaround_times.keys():
+                    turnaround_times[sched_name] = []
+
+                waiting_times[sched_name] += sched.task_waiting_times
+                turnaround_times[sched_name] += sched.task_turnaround_times
+
+        for sched_name, waiting_times_list in waiting_times.items():
+            self.average_waiting_times[sched_name] = average(waiting_times_list)
+
+        for sched_name, turnaround_times_list in turnaround_times.items():
+            self.average_turnaround_times[sched_name] = average(turnaround_times_list)
+
     def serialize(self):
-        return self.scheduler_groups
+        return {
+            "average_waiting_times": self.average_waiting_times,
+            "average_turnaround_times": self.average_turnaround_times,
+            "scheduler_groups": self.scheduler_groups
+        }
