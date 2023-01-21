@@ -7,9 +7,12 @@ ap = ArgumentParser(description='Page replacement simulation')
 ap.add_argument('input_file', help='Input data file')
 ap.add_argument('output_file', help='Raw output data file')
 ap.add_argument('plot_output_file', help='Plot output file')
+ap.add_argument('-j', '--jobs', type=int,
+                help='Maximum number of concurrent simulations (default: determined automatically, see the '
+                     'documentation of `concurrent.futures` module)')
 args = ap.parse_args()
 
-simulation = MemoryManagerSimulation()
+simulation = MemoryManagerSimulation(args.jobs)
 simulation.read_data(args.input_file)
 simulation.simulate()
 simulation.create_plot(args.plot_output_file)

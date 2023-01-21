@@ -27,5 +27,7 @@ class MemoryManagerGroup(Serializable):
         for memory_manager in self.memory_managers.values():
             memory_manager.process_all()
 
+        return self
+
     def serialize(self):
         return self.memory_managers
