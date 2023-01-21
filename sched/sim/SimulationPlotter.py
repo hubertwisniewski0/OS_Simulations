@@ -29,8 +29,8 @@ class SimulationPlotter:
             for scheduler_algo, scheduler_stats in data[i].items():
                 self.axes[i].plot(scheduler_stats, '.', label=scheduler_algo)
 
-        self.axes[0].set_title('Turnaround time', fontsize='x-small')
-        self.axes[1].set_title('Waiting time', fontsize='x-small')
+        self.axes[0].set_title('Turnaround time')
+        self.axes[1].set_title('Waiting time')
 
         self.figure.suptitle('Average turnaround/waiting time vs simulation number')
         self.figure.supxlabel('Simulation')
