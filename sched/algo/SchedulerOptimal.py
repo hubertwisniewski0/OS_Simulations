@@ -28,30 +28,10 @@ class SchedulerOptimal(Scheduler):
             return
 
         remaining_tasks = [task for task in self.task_list if task not in starting_point]
-        if self.edd_heuristic_bound(remaining_tasks) > self.best_turnaround_time > -1:
-            return
-
         for task in remaining_tasks:
             task_end_time = max(passed_time, task.come_time) + task.duration
             self.recurse_tasks(starting_point + [task], task_end_time,
                                accumulated_turnaround_time + task_end_time - task.come_time)
-
-    @staticmethod
-    def edd_heuristic_bound(task_list: List[Task]) -> int:
-        # Sort tasks by their earliest due date
-        task_list_ = sorted(task_list, key=lambda t: t.come_time + t.duration)
-
-        total_turnaround_time = 0
-        time_counter = 0
-        for task in task_list_:
-            if task.come_time >= time_counter:
-                time_counter = task.come_time + task.duration
-                total_turnaround_time += task.duration
-            else:
-                time_counter += task.duration
-                total_turnaround_time += time_counter - task.come_time
-
-        return total_turnaround_time
 
     def select_next_task(self) -> Optional[Task]:
         if self.optimal_order[0] in self.waiting_tasks:
