@@ -1,0 +1,4502 @@
+[
+    {
+        "lottery_seed": 6239981360013783119,
+        "task_list": [
+            {
+                "come_time": 0,
+                "duration": 4
+            },
+            {
+                "come_time": 0,
+                "duration": 5
+            },
+            {
+                "come_time": 0,
+                "duration": 2
+            },
+            {
+                "come_time": 6,
+                "duration": 6
+            },
+            {
+                "come_time": 7,
+                "duration": 16
+            },
+            {
+                "come_time": 7,
+                "duration": 20
+            },
+            {
+                "come_time": 7,
+                "duration": 16
+            },
+            {
+                "come_time": 3,
+                "duration": 15
+            },
+            {
+                "come_time": 1,
+                "duration": 8
+            },
+            {
+                "come_time": 7,
+                "duration": 11
+            }
+        ]
+    },
+    {
+        "lottery_seed": 13972626658664521851,
+        "task_list": [
+            {
+                "come_time": 6,
+                "duration": 10
+            },
+            {
+                "come_time": 7,
+                "duration": 18
+            },
+            {
+                "come_time": 6,
+                "duration": 17
+            },
+            {
+                "come_time": 7,
+                "duration": 10
+            },
+            {
+                "come_time": 1,
+                "duration": 7
+            },
+            {
+                "come_time": 6,
+                "duration": 4
+            },
+            {
+                "come_time": 0,
+                "duration": 12
+            },
+            {
+                "come_time": 2,
+                "duration": 8
+            },
+            {
+                "come_time": 4,
+                "duration": 10
+            },
+            {
+                "come_time": 7,
+                "duration": 19
+            }
+        ]
+    },
+    {
+        "lottery_seed": 3038005968890448419,
+        "task_list": [
+            {
+                "come_time": 3,
+                "duration": 6
+            },
+            {
+                "come_time": 9,
+                "duration": 6
+            },
+            {
+                "come_time": 3,
+                "duration": 16
+            },
+            {
+                "come_time": 9,
+                "duration": 20
+            },
+            {
+                "come_time": 7,
+                "duration": 2
+            },
+            {
+                "come_time": 8,
+                "duration": 17
+            },
+            {
+                "come_time": 3,
+                "duration": 14
+            },
+            {
+                "come_time": 1,
+                "duration": 9
+            },
+            {
+                "come_time": 1,
+                "duration": 5
+            },
+            {
+                "come_time": 5,
+                "duration": 11
+            }
+        ]
+    },
+    {
+        "lottery_seed": 4484934741897041434,
+        "task_list": [
+            {
+                "come_time": 9,
+                "duration": 4
+            },
+            {
+                "come_time": 9,
+                "duration": 3
+            },
+            {
+                "come_time": 9,
+                "duration": 6
+            },
+            {
+                "come_time": 0,
+                "duration": 4
+            },
+            {
+                "come_time": 7,
+                "duration": 3
+            },
+            {
+                "come_time": 4,
+                "duration": 15
+            },
+            {
+                "come_time": 8,
+                "duration": 11
+            },
+            {
+                "come_time": 1,
+                "duration": 20
+            },
+            {
+                "come_time": 7,
+                "duration": 10
+            },
+            {
+                "come_time": 7,
+                "duration": 16
+            }
+        ]
+    },
+    {
+        "lottery_seed": 16755891013887985260,
+        "task_list": [
+            {
+                "come_time": 6,
+                "duration": 13
+            },
+            {
+                "come_time": 3,
+                "duration": 6
+            },
+            {
+                "come_time": 8,
+                "duration": 4
+            },
+            {
+                "come_time": 2,
+                "duration": 2
+            },
+            {
+                "come_time": 7,
+                "duration": 12
+            },
+            {
+                "come_time": 0,
+                "duration": 6
+            },
+            {
+                "come_time": 8,
+                "duration": 6
+            },
+            {
+                "come_time": 2,
+                "duration": 8
+            },
+            {
+                "come_time": 2,
+                "duration": 8
+            },
+            {
+                "come_time": 2,
+                "duration": 11
+            }
+        ]
+    },
+    {
+        "lottery_seed": 12804673505645695089,
+        "task_list": [
+            {
+                "come_time": 5,
+                "duration": 12
+            },
+            {
+                "come_time": 6,
+                "duration": 12
+            },
+            {
+                "come_time": 6,
+                "duration": 7
+            },
+            {
+                "come_time": 4,
+                "duration": 2
+            },
+            {
+                "come_time": 9,
+                "duration": 6
+            },
+            {
+                "come_time": 8,
+                "duration": 10
+            },
+            {
+                "come_time": 1,
+                "duration": 9
+            },
+            {
+                "come_time": 1,
+                "duration": 7
+            },
+            {
+                "come_time": 9,
+                "duration": 13
+            },
+            {
+                "come_time": 1,
+                "duration": 2
+            }
+        ]
+    },
+    {
+        "lottery_seed": 9956988001280869207,
+        "task_list": [
+            {
+                "come_time": 8,
+                "duration": 17
+            },
+            {
+                "come_time": 6,
+                "duration": 10
+            },
+            {
+                "come_time": 7,
+                "duration": 18
+            },
+            {
+                "come_time": 3,
+                "duration": 1
+            },
+            {
+                "come_time": 2,
+                "duration": 2
+            },
+            {
+                "come_time": 4,
+                "duration": 18
+            },
+            {
+                "come_time": 8,
+                "duration": 12
+            },
+            {
+                "come_time": 1,
+                "duration": 10
+            },
+            {
+                "come_time": 6,
+                "duration": 15
+            },
+            {
+                "come_time": 1,
+                "duration": 5
+            }
+        ]
+    },
+    {
+        "lottery_seed": 15217735382203354226,
+        "task_list": [
+            {
+                "come_time": 6,
+                "duration": 14
+            },
+            {
+                "come_time": 8,
+                "duration": 4
+            },
+            {
+                "come_time": 5,
+                "duration": 7
+            },
+            {
+                "come_time": 5,
+                "duration": 12
+            },
+            {
+                "come_time": 8,
+                "duration": 20
+            },
+            {
+                "come_time": 8,
+                "duration": 17
+            },
+            {
+                "come_time": 6,
+                "duration": 14
+            },
+            {
+                "come_time": 5,
+                "duration": 6
+            },
+            {
+                "come_time": 3,
+                "duration": 14
+            },
+            {
+                "come_time": 8,
+                "duration": 3
+            }
+        ]
+    },
+    {
+        "lottery_seed": 9897102419194723986,
+        "task_list": [
+            {
+                "come_time": 3,
+                "duration": 1
+            },
+            {
+                "come_time": 5,
+                "duration": 19
+            },
+            {
+                "come_time": 8,
+                "duration": 7
+            },
+            {
+                "come_time": 6,
+                "duration": 11
+            },
+            {
+                "come_time": 5,
+                "duration": 3
+            },
+            {
+                "come_time": 7,
+                "duration": 5
+            },
+            {
+                "come_time": 3,
+                "duration": 2
+            },
+            {
+                "come_time": 5,
+                "duration": 20
+            },
+            {
+                "come_time": 8,
+                "duration": 1
+            },
+            {
+                "come_time": 3,
+                "duration": 12
+            }
+        ]
+    },
+    {
+        "lottery_seed": 13930359393680820968,
+        "task_list": [
+            {
+                "come_time": 7,
+                "duration": 18
+            },
+            {
+                "come_time": 9,
+                "duration": 11
+            },
+            {
+                "come_time": 0,
+                "duration": 11
+            },
+            {
+                "come_time": 9,
+                "duration": 13
+            },
+            {
+                "come_time": 6,
+                "duration": 5
+            },
+            {
+                "come_time": 3,
+                "duration": 16
+            },
+            {
+                "come_time": 1,
+                "duration": 12
+            },
+            {
+                "come_time": 3,
+                "duration": 18
+            },
+            {
+                "come_time": 9,
+                "duration": 17
+            },
+            {
+                "come_time": 3,
+                "duration": 4
+            }
+        ]
+    },
+    {
+        "lottery_seed": 7833101623321326496,
+        "task_list": [
+            {
+                "come_time": 2,
+                "duration": 1
+            },
+            {
+                "come_time": 6,
+                "duration": 4
+            },
+            {
+                "come_time": 0,
+                "duration": 6
+            },
+            {
+                "come_time": 8,
+                "duration": 1
+            },
+            {
+                "come_time": 5,
+                "duration": 9
+            },
+            {
+                "come_time": 4,
+                "duration": 15
+            },
+            {
+                "come_time": 1,
+                "duration": 5
+            },
+            {
+                "come_time": 7,
+                "duration": 10
+            },
+            {
+                "come_time": 4,
+                "duration": 10
+            },
+            {
+                "come_time": 5,
+                "duration": 19
+            }
+        ]
+    },
+    {
+        "lottery_seed": 17682457369134822729,
+        "task_list": [
+            {
+                "come_time": 6,
+                "duration": 2
+            },
+            {
+                "come_time": 4,
+                "duration": 6
+            },
+            {
+                "come_time": 1,
+                "duration": 9
+            },
+            {
+                "come_time": 4,
+                "duration": 1
+            },
+            {
+                "come_time": 3,
+                "duration": 11
+            },
+            {
+                "come_time": 2,
+                "duration": 17
+            },
+            {
+                "come_time": 8,
+                "duration": 1
+            },
+            {
+                "come_time": 4,
+                "duration": 16
+            },
+            {
+                "come_time": 5,
+                "duration": 19
+            },
+            {
+                "come_time": 2,
+                "duration": 6
+            }
+        ]
+    },
+    {
+        "lottery_seed": 17159650766434516451,
+        "task_list": [
+            {
+                "come_time": 1,
+                "duration": 8
+            },
+            {
+                "come_time": 7,
+                "duration": 19
+            },
+            {
+                "come_time": 8,
+                "duration": 18
+            },
+            {
+                "come_time": 2,
+                "duration": 16
+            },
+            {
+                "come_time": 0,
+                "duration": 5
+            },
+            {
+                "come_time": 3,
+                "duration": 7
+            },
+            {
+                "come_time": 4,
+                "duration": 6
+            },
+            {
+                "come_time": 4,
+                "duration": 5
+            },
+            {
+                "come_time": 8,
+                "duration": 7
+            },
+            {
+                "come_time": 4,
+                "duration": 13
+            }
+        ]
+    },
+    {
+        "lottery_seed": 13007701142158085955,
+        "task_list": [
+            {
+                "come_time": 8,
+                "duration": 18
+            },
+            {
+                "come_time": 1,
+                "duration": 9
+            },
+            {
+                "come_time": 9,
+                "duration": 1
+            },
+            {
+                "come_time": 2,
+                "duration": 1
+            },
+            {
+                "come_time": 7,
+                "duration": 10
+            },
+            {
+                "come_time": 0,
+                "duration": 18
+            },
+            {
+                "come_time": 5,
+                "duration": 16
+            },
+            {
+                "come_time": 1,
+                "duration": 5
+            },
+            {
+                "come_time": 5,
+                "duration": 15
+            },
+            {
+                "come_time": 6,
+                "duration": 18
+            }
+        ]
+    },
+    {
+        "lottery_seed": 6140170541990548588,
+        "task_list": [
+            {
+                "come_time": 2,
+                "duration": 17
+            },
+            {
+                "come_time": 4,
+                "duration": 2
+            },
+            {
+                "come_time": 5,
+                "duration": 15
+            },
+            {
+                "come_time": 3,
+                "duration": 14
+            },
+            {
+                "come_time": 2,
+                "duration": 3
+            },
+            {
+                "come_time": 2,
+                "duration": 5
+            },
+            {
+                "come_time": 1,
+                "duration": 15
+            },
+            {
+                "come_time": 3,
+                "duration": 4
+            },
+            {
+                "come_time": 0,
+                "duration": 11
+            },
+            {
+                "come_time": 5,
+                "duration": 4
+            }
+        ]
+    },
+    {
+        "lottery_seed": 14900429813365464212,
+        "task_list": [
+            {
+                "come_time": 1,
+                "duration": 1
+            },
+            {
+                "come_time": 4,
+                "duration": 12
+            },
+            {
+                "come_time": 3,
+                "duration": 16
+            },
+            {
+                "come_time": 4,
+                "duration": 5
+            },
+            {
+                "come_time": 7,
+                "duration": 17
+            },
+            {
+                "come_time": 4,
+                "duration": 2
+            },
+            {
+                "come_time": 0,
+                "duration": 10
+            },
+            {
+                "come_time": 4,
+                "duration": 9
+            },
+            {
+                "come_time": 3,
+                "duration": 17
+            },
+            {
+                "come_time": 2,
+                "duration": 14
+            }
+        ]
+    },
+    {
+        "lottery_seed": 12831879791623742090,
+        "task_list": [
+            {
+                "come_time": 0,
+                "duration": 8
+            },
+            {
+                "come_time": 7,
+                "duration": 13
+            },
+            {
+                "come_time": 5,
+                "duration": 18
+            },
+            {
+                "come_time": 7,
+                "duration": 1
+            },
+            {
+                "come_time": 3,
+                "duration": 3
+            },
+            {
+                "come_time": 5,
+                "duration": 8
+            },
+            {
+                "come_time": 7,
+                "duration": 3
+            },
+            {
+                "come_time": 0,
+                "duration": 14
+            },
+            {
+                "come_time": 9,
+                "duration": 19
+            },
+            {
+                "come_time": 2,
+                "duration": 1
+            }
+        ]
+    },
+    {
+        "lottery_seed": 1243905891450736091,
+        "task_list": [
+            {
+                "come_time": 1,
+                "duration": 18
+            },
+            {
+                "come_time": 3,
+                "duration": 7
+            },
+            {
+                "come_time": 8,
+                "duration": 2
+            },
+            {
+                "come_time": 5,
+                "duration": 15
+            },
+            {
+                "come_time": 5,
+                "duration": 18
+            },
+            {
+                "come_time": 3,
+                "duration": 3
+            },
+            {
+                "come_time": 9,
+                "duration": 18
+            },
+            {
+                "come_time": 0,
+                "duration": 11
+            },
+            {
+                "come_time": 5,
+                "duration": 7
+            },
+            {
+                "come_time": 7,
+                "duration": 8
+            }
+        ]
+    },
+    {
+        "lottery_seed": 1437325627124430925,
+        "task_list": [
+            {
+                "come_time": 2,
+                "duration": 4
+            },
+            {
+                "come_time": 3,
+                "duration": 2
+            },
+            {
+                "come_time": 8,
+                "duration": 18
+            },
+            {
+                "come_time": 6,
+                "duration": 8
+            },
+            {
+                "come_time": 2,
+                "duration": 16
+            },
+            {
+                "come_time": 5,
+                "duration": 18
+            },
+            {
+                "come_time": 2,
+                "duration": 18
+            },
+            {
+                "come_time": 1,
+                "duration": 5
+            },
+            {
+                "come_time": 3,
+                "duration": 20
+            },
+            {
+                "come_time": 7,
+                "duration": 14
+            }
+        ]
+    },
+    {
+        "lottery_seed": 1483194363812182393,
+        "task_list": [
+            {
+                "come_time": 6,
+                "duration": 18
+            },
+            {
+                "come_time": 8,
+                "duration": 6
+            },
+            {
+                "come_time": 9,
+                "duration": 12
+            },
+            {
+                "come_time": 2,
+                "duration": 2
+            },
+            {
+                "come_time": 2,
+                "duration": 6
+            },
+            {
+                "come_time": 0,
+                "duration": 8
+            },
+            {
+                "come_time": 4,
+                "duration": 7
+            },
+            {
+                "come_time": 0,
+                "duration": 19
+            },
+            {
+                "come_time": 3,
+                "duration": 10
+            },
+            {
+                "come_time": 2,
+                "duration": 15
+            }
+        ]
+    },
+    {
+        "lottery_seed": 9459332506194488484,
+        "task_list": [
+            {
+                "come_time": 5,
+                "duration": 20
+            },
+            {
+                "come_time": 6,
+                "duration": 16
+            },
+            {
+                "come_time": 0,
+                "duration": 2
+            },
+            {
+                "come_time": 4,
+                "duration": 1
+            },
+            {
+                "come_time": 9,
+                "duration": 18
+            },
+            {
+                "come_time": 2,
+                "duration": 19
+            },
+            {
+                "come_time": 4,
+                "duration": 13
+            },
+            {
+                "come_time": 0,
+                "duration": 14
+            },
+            {
+                "come_time": 3,
+                "duration": 12
+            },
+            {
+                "come_time": 4,
+                "duration": 15
+            }
+        ]
+    },
+    {
+        "lottery_seed": 2207289384269134997,
+        "task_list": [
+            {
+                "come_time": 4,
+                "duration": 2
+            },
+            {
+                "come_time": 1,
+                "duration": 5
+            },
+            {
+                "come_time": 6,
+                "duration": 3
+            },
+            {
+                "come_time": 9,
+                "duration": 14
+            },
+            {
+                "come_time": 6,
+                "duration": 1
+            },
+            {
+                "come_time": 9,
+                "duration": 11
+            },
+            {
+                "come_time": 2,
+                "duration": 11
+            },
+            {
+                "come_time": 3,
+                "duration": 9
+            },
+            {
+                "come_time": 1,
+                "duration": 17
+            },
+            {
+                "come_time": 4,
+                "duration": 3
+            }
+        ]
+    },
+    {
+        "lottery_seed": 9385171056732018869,
+        "task_list": [
+            {
+                "come_time": 3,
+                "duration": 5
+            },
+            {
+                "come_time": 1,
+                "duration": 18
+            },
+            {
+                "come_time": 9,
+                "duration": 1
+            },
+            {
+                "come_time": 0,
+                "duration": 1
+            },
+            {
+                "come_time": 4,
+                "duration": 16
+            },
+            {
+                "come_time": 9,
+                "duration": 19
+            },
+            {
+                "come_time": 1,
+                "duration": 6
+            },
+            {
+                "come_time": 1,
+                "duration": 15
+            },
+            {
+                "come_time": 7,
+                "duration": 3
+            },
+            {
+                "come_time": 1,
+                "duration": 12
+            }
+        ]
+    },
+    {
+        "lottery_seed": 4839187412848244392,
+        "task_list": [
+            {
+                "come_time": 1,
+                "duration": 10
+            },
+            {
+                "come_time": 1,
+                "duration": 16
+            },
+            {
+                "come_time": 3,
+                "duration": 10
+            },
+            {
+                "come_time": 4,
+                "duration": 8
+            },
+            {
+                "come_time": 8,
+                "duration": 19
+            },
+            {
+                "come_time": 7,
+                "duration": 16
+            },
+            {
+                "come_time": 8,
+                "duration": 19
+            },
+            {
+                "come_time": 9,
+                "duration": 15
+            },
+            {
+                "come_time": 8,
+                "duration": 13
+            },
+            {
+                "come_time": 3,
+                "duration": 2
+            }
+        ]
+    },
+    {
+        "lottery_seed": 6836720736545819361,
+        "task_list": [
+            {
+                "come_time": 6,
+                "duration": 7
+            },
+            {
+                "come_time": 9,
+                "duration": 2
+            },
+            {
+                "come_time": 2,
+                "duration": 17
+            },
+            {
+                "come_time": 3,
+                "duration": 3
+            },
+            {
+                "come_time": 3,
+                "duration": 10
+            },
+            {
+                "come_time": 4,
+                "duration": 14
+            },
+            {
+                "come_time": 7,
+                "duration": 19
+            },
+            {
+                "come_time": 0,
+                "duration": 2
+            },
+            {
+                "come_time": 0,
+                "duration": 13
+            },
+            {
+                "come_time": 4,
+                "duration": 1
+            }
+        ]
+    },
+    {
+        "lottery_seed": 5224389293483707595,
+        "task_list": [
+            {
+                "come_time": 0,
+                "duration": 11
+            },
+            {
+                "come_time": 4,
+                "duration": 16
+            },
+            {
+                "come_time": 8,
+                "duration": 10
+            },
+            {
+                "come_time": 6,
+                "duration": 6
+            },
+            {
+                "come_time": 8,
+                "duration": 7
+            },
+            {
+                "come_time": 7,
+                "duration": 1
+            },
+            {
+                "come_time": 7,
+                "duration": 17
+            },
+            {
+                "come_time": 3,
+                "duration": 6
+            },
+            {
+                "come_time": 6,
+                "duration": 10
+            },
+            {
+                "come_time": 8,
+                "duration": 1
+            }
+        ]
+    },
+    {
+        "lottery_seed": 731758348968995131,
+        "task_list": [
+            {
+                "come_time": 9,
+                "duration": 11
+            },
+            {
+                "come_time": 2,
+                "duration": 13
+            },
+            {
+                "come_time": 3,
+                "duration": 15
+            },
+            {
+                "come_time": 9,
+                "duration": 3
+            },
+            {
+                "come_time": 7,
+                "duration": 10
+            },
+            {
+                "come_time": 1,
+                "duration": 20
+            },
+            {
+                "come_time": 4,
+                "duration": 6
+            },
+            {
+                "come_time": 2,
+                "duration": 8
+            },
+            {
+                "come_time": 2,
+                "duration": 19
+            },
+            {
+                "come_time": 9,
+                "duration": 10
+            }
+        ]
+    },
+    {
+        "lottery_seed": 18433830298549235322,
+        "task_list": [
+            {
+                "come_time": 0,
+                "duration": 4
+            },
+            {
+                "come_time": 1,
+                "duration": 17
+            },
+            {
+                "come_time": 4,
+                "duration": 15
+            },
+            {
+                "come_time": 1,
+                "duration": 19
+            },
+            {
+                "come_time": 7,
+                "duration": 4
+            },
+            {
+                "come_time": 5,
+                "duration": 13
+            },
+            {
+                "come_time": 3,
+                "duration": 7
+            },
+            {
+                "come_time": 3,
+                "duration": 3
+            },
+            {
+                "come_time": 1,
+                "duration": 15
+            },
+            {
+                "come_time": 2,
+                "duration": 13
+            }
+        ]
+    },
+    {
+        "lottery_seed": 5154464437843496692,
+        "task_list": [
+            {
+                "come_time": 0,
+                "duration": 11
+            },
+            {
+                "come_time": 0,
+                "duration": 9
+            },
+            {
+                "come_time": 3,
+                "duration": 20
+            },
+            {
+                "come_time": 2,
+                "duration": 15
+            },
+            {
+                "come_time": 3,
+                "duration": 3
+            },
+            {
+                "come_time": 1,
+                "duration": 1
+            },
+            {
+                "come_time": 3,
+                "duration": 11
+            },
+            {
+                "come_time": 7,
+                "duration": 7
+            },
+            {
+                "come_time": 3,
+                "duration": 15
+            },
+            {
+                "come_time": 0,
+                "duration": 15
+            }
+        ]
+    },
+    {
+        "lottery_seed": 7037646396050710665,
+        "task_list": [
+            {
+                "come_time": 4,
+                "duration": 6
+            },
+            {
+                "come_time": 3,
+                "duration": 20
+            },
+            {
+                "come_time": 2,
+                "duration": 18
+            },
+            {
+                "come_time": 3,
+                "duration": 20
+            },
+            {
+                "come_time": 5,
+                "duration": 6
+            },
+            {
+                "come_time": 3,
+                "duration": 9
+            },
+            {
+                "come_time": 2,
+                "duration": 18
+            },
+            {
+                "come_time": 3,
+                "duration": 18
+            },
+            {
+                "come_time": 6,
+                "duration": 7
+            },
+            {
+                "come_time": 1,
+                "duration": 15
+            }
+        ]
+    },
+    {
+        "lottery_seed": 6001044289894085991,
+        "task_list": [
+            {
+                "come_time": 2,
+                "duration": 12
+            },
+            {
+                "come_time": 9,
+                "duration": 14
+            },
+            {
+                "come_time": 9,
+                "duration": 4
+            },
+            {
+                "come_time": 4,
+                "duration": 10
+            },
+            {
+                "come_time": 1,
+                "duration": 10
+            },
+            {
+                "come_time": 2,
+                "duration": 3
+            },
+            {
+                "come_time": 3,
+                "duration": 15
+            },
+            {
+                "come_time": 2,
+                "duration": 10
+            },
+            {
+                "come_time": 1,
+                "duration": 10
+            },
+            {
+                "come_time": 2,
+                "duration": 16
+            }
+        ]
+    },
+    {
+        "lottery_seed": 4390886731749045894,
+        "task_list": [
+            {
+                "come_time": 0,
+                "duration": 14
+            },
+            {
+                "come_time": 6,
+                "duration": 20
+            },
+            {
+                "come_time": 2,
+                "duration": 6
+            },
+            {
+                "come_time": 8,
+                "duration": 13
+            },
+            {
+                "come_time": 5,
+                "duration": 20
+            },
+            {
+                "come_time": 5,
+                "duration": 8
+            },
+            {
+                "come_time": 8,
+                "duration": 2
+            },
+            {
+                "come_time": 9,
+                "duration": 4
+            },
+            {
+                "come_time": 2,
+                "duration": 6
+            },
+            {
+                "come_time": 8,
+                "duration": 6
+            }
+        ]
+    },
+    {
+        "lottery_seed": 1428211709007689371,
+        "task_list": [
+            {
+                "come_time": 2,
+                "duration": 13
+            },
+            {
+                "come_time": 8,
+                "duration": 11
+            },
+            {
+                "come_time": 9,
+                "duration": 1
+            },
+            {
+                "come_time": 6,
+                "duration": 12
+            },
+            {
+                "come_time": 4,
+                "duration": 8
+            },
+            {
+                "come_time": 0,
+                "duration": 7
+            },
+            {
+                "come_time": 5,
+                "duration": 2
+            },
+            {
+                "come_time": 3,
+                "duration": 14
+            },
+            {
+                "come_time": 6,
+                "duration": 14
+            },
+            {
+                "come_time": 3,
+                "duration": 14
+            }
+        ]
+    },
+    {
+        "lottery_seed": 15418964615367406570,
+        "task_list": [
+            {
+                "come_time": 6,
+                "duration": 11
+            },
+            {
+                "come_time": 8,
+                "duration": 13
+            },
+            {
+                "come_time": 5,
+                "duration": 8
+            },
+            {
+                "come_time": 8,
+                "duration": 8
+            },
+            {
+                "come_time": 1,
+                "duration": 15
+            },
+            {
+                "come_time": 6,
+                "duration": 7
+            },
+            {
+                "come_time": 8,
+                "duration": 14
+            },
+            {
+                "come_time": 6,
+                "duration": 16
+            },
+            {
+                "come_time": 9,
+                "duration": 17
+            },
+            {
+                "come_time": 3,
+                "duration": 11
+            }
+        ]
+    },
+    {
+        "lottery_seed": 15330000453429061849,
+        "task_list": [
+            {
+                "come_time": 9,
+                "duration": 3
+            },
+            {
+                "come_time": 7,
+                "duration": 8
+            },
+            {
+                "come_time": 2,
+                "duration": 16
+            },
+            {
+                "come_time": 9,
+                "duration": 4
+            },
+            {
+                "come_time": 9,
+                "duration": 18
+            },
+            {
+                "come_time": 0,
+                "duration": 1
+            },
+            {
+                "come_time": 7,
+                "duration": 4
+            },
+            {
+                "come_time": 6,
+                "duration": 6
+            },
+            {
+                "come_time": 2,
+                "duration": 12
+            },
+            {
+                "come_time": 8,
+                "duration": 18
+            }
+        ]
+    },
+    {
+        "lottery_seed": 9264770112347582155,
+        "task_list": [
+            {
+                "come_time": 5,
+                "duration": 18
+            },
+            {
+                "come_time": 5,
+                "duration": 3
+            },
+            {
+                "come_time": 2,
+                "duration": 14
+            },
+            {
+                "come_time": 6,
+                "duration": 6
+            },
+            {
+                "come_time": 7,
+                "duration": 5
+            },
+            {
+                "come_time": 8,
+                "duration": 12
+            },
+            {
+                "come_time": 4,
+                "duration": 3
+            },
+            {
+                "come_time": 2,
+                "duration": 6
+            },
+            {
+                "come_time": 3,
+                "duration": 7
+            },
+            {
+                "come_time": 0,
+                "duration": 5
+            }
+        ]
+    },
+    {
+        "lottery_seed": 16906050880105783293,
+        "task_list": [
+            {
+                "come_time": 4,
+                "duration": 8
+            },
+            {
+                "come_time": 5,
+                "duration": 16
+            },
+            {
+                "come_time": 4,
+                "duration": 8
+            },
+            {
+                "come_time": 5,
+                "duration": 20
+            },
+            {
+                "come_time": 7,
+                "duration": 11
+            },
+            {
+                "come_time": 0,
+                "duration": 15
+            },
+            {
+                "come_time": 1,
+                "duration": 18
+            },
+            {
+                "come_time": 5,
+                "duration": 20
+            },
+            {
+                "come_time": 9,
+                "duration": 18
+            },
+            {
+                "come_time": 4,
+                "duration": 1
+            }
+        ]
+    },
+    {
+        "lottery_seed": 6888083116444951707,
+        "task_list": [
+            {
+                "come_time": 8,
+                "duration": 6
+            },
+            {
+                "come_time": 2,
+                "duration": 2
+            },
+            {
+                "come_time": 8,
+                "duration": 15
+            },
+            {
+                "come_time": 3,
+                "duration": 19
+            },
+            {
+                "come_time": 9,
+                "duration": 17
+            },
+            {
+                "come_time": 8,
+                "duration": 19
+            },
+            {
+                "come_time": 8,
+                "duration": 19
+            },
+            {
+                "come_time": 9,
+                "duration": 12
+            },
+            {
+                "come_time": 3,
+                "duration": 17
+            },
+            {
+                "come_time": 5,
+                "duration": 5
+            }
+        ]
+    },
+    {
+        "lottery_seed": 15939298301925153878,
+        "task_list": [
+            {
+                "come_time": 0,
+                "duration": 14
+            },
+            {
+                "come_time": 5,
+                "duration": 7
+            },
+            {
+                "come_time": 3,
+                "duration": 2
+            },
+            {
+                "come_time": 0,
+                "duration": 20
+            },
+            {
+                "come_time": 9,
+                "duration": 19
+            },
+            {
+                "come_time": 5,
+                "duration": 6
+            },
+            {
+                "come_time": 9,
+                "duration": 3
+            },
+            {
+                "come_time": 8,
+                "duration": 14
+            },
+            {
+                "come_time": 1,
+                "duration": 15
+            },
+            {
+                "come_time": 2,
+                "duration": 17
+            }
+        ]
+    },
+    {
+        "lottery_seed": 2395841657953632471,
+        "task_list": [
+            {
+                "come_time": 2,
+                "duration": 20
+            },
+            {
+                "come_time": 8,
+                "duration": 7
+            },
+            {
+                "come_time": 3,
+                "duration": 2
+            },
+            {
+                "come_time": 1,
+                "duration": 5
+            },
+            {
+                "come_time": 0,
+                "duration": 1
+            },
+            {
+                "come_time": 4,
+                "duration": 18
+            },
+            {
+                "come_time": 6,
+                "duration": 19
+            },
+            {
+                "come_time": 7,
+                "duration": 10
+            },
+            {
+                "come_time": 6,
+                "duration": 13
+            },
+            {
+                "come_time": 1,
+                "duration": 17
+            }
+        ]
+    },
+    {
+        "lottery_seed": 18204590718113615199,
+        "task_list": [
+            {
+                "come_time": 7,
+                "duration": 16
+            },
+            {
+                "come_time": 0,
+                "duration": 14
+            },
+            {
+                "come_time": 6,
+                "duration": 16
+            },
+            {
+                "come_time": 5,
+                "duration": 18
+            },
+            {
+                "come_time": 2,
+                "duration": 15
+            },
+            {
+                "come_time": 6,
+                "duration": 18
+            },
+            {
+                "come_time": 9,
+                "duration": 3
+            },
+            {
+                "come_time": 6,
+                "duration": 3
+            },
+            {
+                "come_time": 6,
+                "duration": 14
+            },
+            {
+                "come_time": 0,
+                "duration": 16
+            }
+        ]
+    },
+    {
+        "lottery_seed": 10090119554835416889,
+        "task_list": [
+            {
+                "come_time": 3,
+                "duration": 6
+            },
+            {
+                "come_time": 9,
+                "duration": 1
+            },
+            {
+                "come_time": 9,
+                "duration": 5
+            },
+            {
+                "come_time": 8,
+                "duration": 15
+            },
+            {
+                "come_time": 1,
+                "duration": 16
+            },
+            {
+                "come_time": 8,
+                "duration": 17
+            },
+            {
+                "come_time": 0,
+                "duration": 2
+            },
+            {
+                "come_time": 3,
+                "duration": 15
+            },
+            {
+                "come_time": 8,
+                "duration": 15
+            },
+            {
+                "come_time": 1,
+                "duration": 7
+            }
+        ]
+    },
+    {
+        "lottery_seed": 16218884333762035818,
+        "task_list": [
+            {
+                "come_time": 7,
+                "duration": 2
+            },
+            {
+                "come_time": 0,
+                "duration": 17
+            },
+            {
+                "come_time": 2,
+                "duration": 7
+            },
+            {
+                "come_time": 3,
+                "duration": 13
+            },
+            {
+                "come_time": 3,
+                "duration": 13
+            },
+            {
+                "come_time": 6,
+                "duration": 2
+            },
+            {
+                "come_time": 4,
+                "duration": 2
+            },
+            {
+                "come_time": 2,
+                "duration": 15
+            },
+            {
+                "come_time": 0,
+                "duration": 10
+            },
+            {
+                "come_time": 3,
+                "duration": 6
+            }
+        ]
+    },
+    {
+        "lottery_seed": 14606538063588039588,
+        "task_list": [
+            {
+                "come_time": 3,
+                "duration": 3
+            },
+            {
+                "come_time": 4,
+                "duration": 5
+            },
+            {
+                "come_time": 0,
+                "duration": 11
+            },
+            {
+                "come_time": 3,
+                "duration": 18
+            },
+            {
+                "come_time": 9,
+                "duration": 18
+            },
+            {
+                "come_time": 4,
+                "duration": 18
+            },
+            {
+                "come_time": 7,
+                "duration": 5
+            },
+            {
+                "come_time": 1,
+                "duration": 2
+            },
+            {
+                "come_time": 1,
+                "duration": 5
+            },
+            {
+                "come_time": 7,
+                "duration": 15
+            }
+        ]
+    },
+    {
+        "lottery_seed": 13373805297567768179,
+        "task_list": [
+            {
+                "come_time": 9,
+                "duration": 10
+            },
+            {
+                "come_time": 2,
+                "duration": 2
+            },
+            {
+                "come_time": 6,
+                "duration": 20
+            },
+            {
+                "come_time": 6,
+                "duration": 1
+            },
+            {
+                "come_time": 8,
+                "duration": 19
+            },
+            {
+                "come_time": 4,
+                "duration": 1
+            },
+            {
+                "come_time": 0,
+                "duration": 15
+            },
+            {
+                "come_time": 9,
+                "duration": 5
+            },
+            {
+                "come_time": 7,
+                "duration": 2
+            },
+            {
+                "come_time": 3,
+                "duration": 1
+            }
+        ]
+    },
+    {
+        "lottery_seed": 3619835926057091238,
+        "task_list": [
+            {
+                "come_time": 5,
+                "duration": 8
+            },
+            {
+                "come_time": 2,
+                "duration": 18
+            },
+            {
+                "come_time": 8,
+                "duration": 9
+            },
+            {
+                "come_time": 1,
+                "duration": 1
+            },
+            {
+                "come_time": 5,
+                "duration": 2
+            },
+            {
+                "come_time": 3,
+                "duration": 2
+            },
+            {
+                "come_time": 6,
+                "duration": 7
+            },
+            {
+                "come_time": 1,
+                "duration": 4
+            },
+            {
+                "come_time": 0,
+                "duration": 19
+            },
+            {
+                "come_time": 2,
+                "duration": 18
+            }
+        ]
+    },
+    {
+        "lottery_seed": 17526924590971582274,
+        "task_list": [
+            {
+                "come_time": 3,
+                "duration": 9
+            },
+            {
+                "come_time": 6,
+                "duration": 3
+            },
+            {
+                "come_time": 9,
+                "duration": 15
+            },
+            {
+                "come_time": 5,
+                "duration": 15
+            },
+            {
+                "come_time": 1,
+                "duration": 13
+            },
+            {
+                "come_time": 8,
+                "duration": 17
+            },
+            {
+                "come_time": 4,
+                "duration": 17
+            },
+            {
+                "come_time": 6,
+                "duration": 9
+            },
+            {
+                "come_time": 3,
+                "duration": 5
+            },
+            {
+                "come_time": 7,
+                "duration": 9
+            }
+        ]
+    },
+    {
+        "lottery_seed": 12581869531577078140,
+        "task_list": [
+            {
+                "come_time": 9,
+                "duration": 15
+            },
+            {
+                "come_time": 7,
+                "duration": 18
+            },
+            {
+                "come_time": 3,
+                "duration": 19
+            },
+            {
+                "come_time": 6,
+                "duration": 7
+            },
+            {
+                "come_time": 0,
+                "duration": 2
+            },
+            {
+                "come_time": 1,
+                "duration": 3
+            },
+            {
+                "come_time": 1,
+                "duration": 18
+            },
+            {
+                "come_time": 7,
+                "duration": 11
+            },
+            {
+                "come_time": 5,
+                "duration": 20
+            },
+            {
+                "come_time": 6,
+                "duration": 15
+            }
+        ]
+    },
+    {
+        "lottery_seed": 387679400218898800,
+        "task_list": [
+            {
+                "come_time": 3,
+                "duration": 12
+            },
+            {
+                "come_time": 8,
+                "duration": 3
+            },
+            {
+                "come_time": 0,
+                "duration": 17
+            },
+            {
+                "come_time": 5,
+                "duration": 18
+            },
+            {
+                "come_time": 9,
+                "duration": 15
+            },
+            {
+                "come_time": 2,
+                "duration": 20
+            },
+            {
+                "come_time": 1,
+                "duration": 14
+            },
+            {
+                "come_time": 2,
+                "duration": 5
+            },
+            {
+                "come_time": 4,
+                "duration": 4
+            },
+            {
+                "come_time": 1,
+                "duration": 4
+            }
+        ]
+    },
+    {
+        "lottery_seed": 6724718382901156383,
+        "task_list": [
+            {
+                "come_time": 8,
+                "duration": 20
+            },
+            {
+                "come_time": 0,
+                "duration": 5
+            },
+            {
+                "come_time": 7,
+                "duration": 8
+            },
+            {
+                "come_time": 1,
+                "duration": 16
+            },
+            {
+                "come_time": 7,
+                "duration": 15
+            },
+            {
+                "come_time": 4,
+                "duration": 14
+            },
+            {
+                "come_time": 3,
+                "duration": 15
+            },
+            {
+                "come_time": 8,
+                "duration": 16
+            },
+            {
+                "come_time": 9,
+                "duration": 1
+            },
+            {
+                "come_time": 3,
+                "duration": 11
+            }
+        ]
+    },
+    {
+        "lottery_seed": 9754225689118758518,
+        "task_list": [
+            {
+                "come_time": 6,
+                "duration": 15
+            },
+            {
+                "come_time": 3,
+                "duration": 10
+            },
+            {
+                "come_time": 8,
+                "duration": 7
+            },
+            {
+                "come_time": 2,
+                "duration": 20
+            },
+            {
+                "come_time": 5,
+                "duration": 20
+            },
+            {
+                "come_time": 7,
+                "duration": 17
+            },
+            {
+                "come_time": 9,
+                "duration": 16
+            },
+            {
+                "come_time": 5,
+                "duration": 7
+            },
+            {
+                "come_time": 8,
+                "duration": 5
+            },
+            {
+                "come_time": 8,
+                "duration": 20
+            }
+        ]
+    },
+    {
+        "lottery_seed": 10309389568612451204,
+        "task_list": [
+            {
+                "come_time": 4,
+                "duration": 18
+            },
+            {
+                "come_time": 1,
+                "duration": 17
+            },
+            {
+                "come_time": 3,
+                "duration": 15
+            },
+            {
+                "come_time": 5,
+                "duration": 7
+            },
+            {
+                "come_time": 7,
+                "duration": 17
+            },
+            {
+                "come_time": 6,
+                "duration": 19
+            },
+            {
+                "come_time": 4,
+                "duration": 2
+            },
+            {
+                "come_time": 5,
+                "duration": 8
+            },
+            {
+                "come_time": 4,
+                "duration": 1
+            },
+            {
+                "come_time": 5,
+                "duration": 16
+            }
+        ]
+    },
+    {
+        "lottery_seed": 18321919153236556713,
+        "task_list": [
+            {
+                "come_time": 7,
+                "duration": 20
+            },
+            {
+                "come_time": 9,
+                "duration": 5
+            },
+            {
+                "come_time": 8,
+                "duration": 18
+            },
+            {
+                "come_time": 8,
+                "duration": 16
+            },
+            {
+                "come_time": 8,
+                "duration": 5
+            },
+            {
+                "come_time": 2,
+                "duration": 2
+            },
+            {
+                "come_time": 6,
+                "duration": 19
+            },
+            {
+                "come_time": 0,
+                "duration": 16
+            },
+            {
+                "come_time": 2,
+                "duration": 6
+            },
+            {
+                "come_time": 8,
+                "duration": 14
+            }
+        ]
+    },
+    {
+        "lottery_seed": 16350044575452521586,
+        "task_list": [
+            {
+                "come_time": 6,
+                "duration": 12
+            },
+            {
+                "come_time": 5,
+                "duration": 6
+            },
+            {
+                "come_time": 6,
+                "duration": 7
+            },
+            {
+                "come_time": 8,
+                "duration": 19
+            },
+            {
+                "come_time": 2,
+                "duration": 13
+            },
+            {
+                "come_time": 0,
+                "duration": 15
+            },
+            {
+                "come_time": 2,
+                "duration": 1
+            },
+            {
+                "come_time": 5,
+                "duration": 9
+            },
+            {
+                "come_time": 9,
+                "duration": 11
+            },
+            {
+                "come_time": 1,
+                "duration": 16
+            }
+        ]
+    },
+    {
+        "lottery_seed": 18327082572731713830,
+        "task_list": [
+            {
+                "come_time": 0,
+                "duration": 14
+            },
+            {
+                "come_time": 2,
+                "duration": 3
+            },
+            {
+                "come_time": 0,
+                "duration": 16
+            },
+            {
+                "come_time": 3,
+                "duration": 10
+            },
+            {
+                "come_time": 3,
+                "duration": 8
+            },
+            {
+                "come_time": 7,
+                "duration": 14
+            },
+            {
+                "come_time": 7,
+                "duration": 11
+            },
+            {
+                "come_time": 4,
+                "duration": 14
+            },
+            {
+                "come_time": 5,
+                "duration": 13
+            },
+            {
+                "come_time": 2,
+                "duration": 10
+            }
+        ]
+    },
+    {
+        "lottery_seed": 7457474070518663585,
+        "task_list": [
+            {
+                "come_time": 7,
+                "duration": 8
+            },
+            {
+                "come_time": 4,
+                "duration": 2
+            },
+            {
+                "come_time": 5,
+                "duration": 19
+            },
+            {
+                "come_time": 6,
+                "duration": 9
+            },
+            {
+                "come_time": 1,
+                "duration": 4
+            },
+            {
+                "come_time": 3,
+                "duration": 17
+            },
+            {
+                "come_time": 6,
+                "duration": 7
+            },
+            {
+                "come_time": 8,
+                "duration": 9
+            },
+            {
+                "come_time": 8,
+                "duration": 8
+            },
+            {
+                "come_time": 3,
+                "duration": 1
+            }
+        ]
+    },
+    {
+        "lottery_seed": 8605601299571720505,
+        "task_list": [
+            {
+                "come_time": 2,
+                "duration": 4
+            },
+            {
+                "come_time": 0,
+                "duration": 17
+            },
+            {
+                "come_time": 8,
+                "duration": 7
+            },
+            {
+                "come_time": 5,
+                "duration": 15
+            },
+            {
+                "come_time": 5,
+                "duration": 17
+            },
+            {
+                "come_time": 1,
+                "duration": 18
+            },
+            {
+                "come_time": 2,
+                "duration": 15
+            },
+            {
+                "come_time": 9,
+                "duration": 11
+            },
+            {
+                "come_time": 1,
+                "duration": 17
+            },
+            {
+                "come_time": 0,
+                "duration": 1
+            }
+        ]
+    },
+    {
+        "lottery_seed": 3643204583394868519,
+        "task_list": [
+            {
+                "come_time": 2,
+                "duration": 16
+            },
+            {
+                "come_time": 1,
+                "duration": 2
+            },
+            {
+                "come_time": 1,
+                "duration": 1
+            },
+            {
+                "come_time": 9,
+                "duration": 15
+            },
+            {
+                "come_time": 6,
+                "duration": 11
+            },
+            {
+                "come_time": 7,
+                "duration": 4
+            },
+            {
+                "come_time": 4,
+                "duration": 10
+            },
+            {
+                "come_time": 5,
+                "duration": 9
+            },
+            {
+                "come_time": 7,
+                "duration": 17
+            },
+            {
+                "come_time": 3,
+                "duration": 9
+            }
+        ]
+    },
+    {
+        "lottery_seed": 10854553776588019897,
+        "task_list": [
+            {
+                "come_time": 1,
+                "duration": 3
+            },
+            {
+                "come_time": 9,
+                "duration": 7
+            },
+            {
+                "come_time": 1,
+                "duration": 2
+            },
+            {
+                "come_time": 8,
+                "duration": 19
+            },
+            {
+                "come_time": 0,
+                "duration": 7
+            },
+            {
+                "come_time": 8,
+                "duration": 12
+            },
+            {
+                "come_time": 3,
+                "duration": 3
+            },
+            {
+                "come_time": 6,
+                "duration": 18
+            },
+            {
+                "come_time": 3,
+                "duration": 14
+            },
+            {
+                "come_time": 8,
+                "duration": 2
+            }
+        ]
+    },
+    {
+        "lottery_seed": 12551955465654100581,
+        "task_list": [
+            {
+                "come_time": 0,
+                "duration": 4
+            },
+            {
+                "come_time": 0,
+                "duration": 12
+            },
+            {
+                "come_time": 5,
+                "duration": 6
+            },
+            {
+                "come_time": 8,
+                "duration": 12
+            },
+            {
+                "come_time": 5,
+                "duration": 10
+            },
+            {
+                "come_time": 1,
+                "duration": 4
+            },
+            {
+                "come_time": 5,
+                "duration": 10
+            },
+            {
+                "come_time": 8,
+                "duration": 15
+            },
+            {
+                "come_time": 2,
+                "duration": 15
+            },
+            {
+                "come_time": 0,
+                "duration": 17
+            }
+        ]
+    },
+    {
+        "lottery_seed": 17512165146446059036,
+        "task_list": [
+            {
+                "come_time": 8,
+                "duration": 2
+            },
+            {
+                "come_time": 3,
+                "duration": 17
+            },
+            {
+                "come_time": 2,
+                "duration": 3
+            },
+            {
+                "come_time": 3,
+                "duration": 19
+            },
+            {
+                "come_time": 4,
+                "duration": 1
+            },
+            {
+                "come_time": 8,
+                "duration": 18
+            },
+            {
+                "come_time": 6,
+                "duration": 9
+            },
+            {
+                "come_time": 1,
+                "duration": 17
+            },
+            {
+                "come_time": 2,
+                "duration": 19
+            },
+            {
+                "come_time": 7,
+                "duration": 7
+            }
+        ]
+    },
+    {
+        "lottery_seed": 7265957959310862344,
+        "task_list": [
+            {
+                "come_time": 6,
+                "duration": 4
+            },
+            {
+                "come_time": 0,
+                "duration": 5
+            },
+            {
+                "come_time": 2,
+                "duration": 16
+            },
+            {
+                "come_time": 1,
+                "duration": 3
+            },
+            {
+                "come_time": 3,
+                "duration": 9
+            },
+            {
+                "come_time": 9,
+                "duration": 4
+            },
+            {
+                "come_time": 9,
+                "duration": 6
+            },
+            {
+                "come_time": 4,
+                "duration": 3
+            },
+            {
+                "come_time": 2,
+                "duration": 2
+            },
+            {
+                "come_time": 5,
+                "duration": 18
+            }
+        ]
+    },
+    {
+        "lottery_seed": 15443298644811158145,
+        "task_list": [
+            {
+                "come_time": 9,
+                "duration": 2
+            },
+            {
+                "come_time": 1,
+                "duration": 3
+            },
+            {
+                "come_time": 4,
+                "duration": 18
+            },
+            {
+                "come_time": 9,
+                "duration": 20
+            },
+            {
+                "come_time": 1,
+                "duration": 16
+            },
+            {
+                "come_time": 1,
+                "duration": 3
+            },
+            {
+                "come_time": 2,
+                "duration": 11
+            },
+            {
+                "come_time": 6,
+                "duration": 9
+            },
+            {
+                "come_time": 3,
+                "duration": 12
+            },
+            {
+                "come_time": 7,
+                "duration": 3
+            }
+        ]
+    },
+    {
+        "lottery_seed": 6211842372952226215,
+        "task_list": [
+            {
+                "come_time": 5,
+                "duration": 6
+            },
+            {
+                "come_time": 4,
+                "duration": 1
+            },
+            {
+                "come_time": 7,
+                "duration": 12
+            },
+            {
+                "come_time": 5,
+                "duration": 15
+            },
+            {
+                "come_time": 6,
+                "duration": 19
+            },
+            {
+                "come_time": 8,
+                "duration": 10
+            },
+            {
+                "come_time": 3,
+                "duration": 10
+            },
+            {
+                "come_time": 5,
+                "duration": 11
+            },
+            {
+                "come_time": 9,
+                "duration": 6
+            },
+            {
+                "come_time": 6,
+                "duration": 15
+            }
+        ]
+    },
+    {
+        "lottery_seed": 17527259115889951149,
+        "task_list": [
+            {
+                "come_time": 3,
+                "duration": 9
+            },
+            {
+                "come_time": 6,
+                "duration": 10
+            },
+            {
+                "come_time": 0,
+                "duration": 19
+            },
+            {
+                "come_time": 0,
+                "duration": 17
+            },
+            {
+                "come_time": 9,
+                "duration": 18
+            },
+            {
+                "come_time": 5,
+                "duration": 1
+            },
+            {
+                "come_time": 5,
+                "duration": 3
+            },
+            {
+                "come_time": 4,
+                "duration": 20
+            },
+            {
+                "come_time": 3,
+                "duration": 1
+            },
+            {
+                "come_time": 4,
+                "duration": 5
+            }
+        ]
+    },
+    {
+        "lottery_seed": 9783984382522408054,
+        "task_list": [
+            {
+                "come_time": 6,
+                "duration": 7
+            },
+            {
+                "come_time": 3,
+                "duration": 6
+            },
+            {
+                "come_time": 0,
+                "duration": 3
+            },
+            {
+                "come_time": 2,
+                "duration": 5
+            },
+            {
+                "come_time": 5,
+                "duration": 13
+            },
+            {
+                "come_time": 4,
+                "duration": 12
+            },
+            {
+                "come_time": 7,
+                "duration": 10
+            },
+            {
+                "come_time": 8,
+                "duration": 13
+            },
+            {
+                "come_time": 3,
+                "duration": 14
+            },
+            {
+                "come_time": 5,
+                "duration": 8
+            }
+        ]
+    },
+    {
+        "lottery_seed": 17435022805713417903,
+        "task_list": [
+            {
+                "come_time": 1,
+                "duration": 20
+            },
+            {
+                "come_time": 4,
+                "duration": 15
+            },
+            {
+                "come_time": 7,
+                "duration": 12
+            },
+            {
+                "come_time": 9,
+                "duration": 2
+            },
+            {
+                "come_time": 9,
+                "duration": 4
+            },
+            {
+                "come_time": 0,
+                "duration": 7
+            },
+            {
+                "come_time": 1,
+                "duration": 19
+            },
+            {
+                "come_time": 6,
+                "duration": 6
+            },
+            {
+                "come_time": 0,
+                "duration": 8
+            },
+            {
+                "come_time": 8,
+                "duration": 19
+            }
+        ]
+    },
+    {
+        "lottery_seed": 6596663045587710180,
+        "task_list": [
+            {
+                "come_time": 2,
+                "duration": 15
+            },
+            {
+                "come_time": 5,
+                "duration": 8
+            },
+            {
+                "come_time": 4,
+                "duration": 1
+            },
+            {
+                "come_time": 8,
+                "duration": 17
+            },
+            {
+                "come_time": 8,
+                "duration": 1
+            },
+            {
+                "come_time": 6,
+                "duration": 14
+            },
+            {
+                "come_time": 8,
+                "duration": 17
+            },
+            {
+                "come_time": 4,
+                "duration": 2
+            },
+            {
+                "come_time": 6,
+                "duration": 6
+            },
+            {
+                "come_time": 0,
+                "duration": 15
+            }
+        ]
+    },
+    {
+        "lottery_seed": 18188075513180960575,
+        "task_list": [
+            {
+                "come_time": 2,
+                "duration": 4
+            },
+            {
+                "come_time": 8,
+                "duration": 12
+            },
+            {
+                "come_time": 4,
+                "duration": 3
+            },
+            {
+                "come_time": 5,
+                "duration": 10
+            },
+            {
+                "come_time": 8,
+                "duration": 8
+            },
+            {
+                "come_time": 4,
+                "duration": 20
+            },
+            {
+                "come_time": 2,
+                "duration": 6
+            },
+            {
+                "come_time": 8,
+                "duration": 16
+            },
+            {
+                "come_time": 5,
+                "duration": 12
+            },
+            {
+                "come_time": 3,
+                "duration": 11
+            }
+        ]
+    },
+    {
+        "lottery_seed": 4576965935320900775,
+        "task_list": [
+            {
+                "come_time": 0,
+                "duration": 15
+            },
+            {
+                "come_time": 9,
+                "duration": 10
+            },
+            {
+                "come_time": 4,
+                "duration": 7
+            },
+            {
+                "come_time": 4,
+                "duration": 20
+            },
+            {
+                "come_time": 2,
+                "duration": 13
+            },
+            {
+                "come_time": 1,
+                "duration": 7
+            },
+            {
+                "come_time": 4,
+                "duration": 14
+            },
+            {
+                "come_time": 4,
+                "duration": 20
+            },
+            {
+                "come_time": 5,
+                "duration": 3
+            },
+            {
+                "come_time": 3,
+                "duration": 14
+            }
+        ]
+    },
+    {
+        "lottery_seed": 15721039122060239157,
+        "task_list": [
+            {
+                "come_time": 1,
+                "duration": 19
+            },
+            {
+                "come_time": 6,
+                "duration": 7
+            },
+            {
+                "come_time": 7,
+                "duration": 8
+            },
+            {
+                "come_time": 3,
+                "duration": 2
+            },
+            {
+                "come_time": 0,
+                "duration": 20
+            },
+            {
+                "come_time": 6,
+                "duration": 9
+            },
+            {
+                "come_time": 5,
+                "duration": 5
+            },
+            {
+                "come_time": 5,
+                "duration": 8
+            },
+            {
+                "come_time": 0,
+                "duration": 20
+            },
+            {
+                "come_time": 7,
+                "duration": 9
+            }
+        ]
+    },
+    {
+        "lottery_seed": 14008747035050851363,
+        "task_list": [
+            {
+                "come_time": 9,
+                "duration": 8
+            },
+            {
+                "come_time": 9,
+                "duration": 7
+            },
+            {
+                "come_time": 3,
+                "duration": 13
+            },
+            {
+                "come_time": 2,
+                "duration": 12
+            },
+            {
+                "come_time": 7,
+                "duration": 5
+            },
+            {
+                "come_time": 3,
+                "duration": 4
+            },
+            {
+                "come_time": 5,
+                "duration": 11
+            },
+            {
+                "come_time": 5,
+                "duration": 3
+            },
+            {
+                "come_time": 9,
+                "duration": 14
+            },
+            {
+                "come_time": 0,
+                "duration": 3
+            }
+        ]
+    },
+    {
+        "lottery_seed": 3856967215121641843,
+        "task_list": [
+            {
+                "come_time": 5,
+                "duration": 5
+            },
+            {
+                "come_time": 0,
+                "duration": 10
+            },
+            {
+                "come_time": 5,
+                "duration": 4
+            },
+            {
+                "come_time": 1,
+                "duration": 9
+            },
+            {
+                "come_time": 3,
+                "duration": 9
+            },
+            {
+                "come_time": 3,
+                "duration": 3
+            },
+            {
+                "come_time": 0,
+                "duration": 3
+            },
+            {
+                "come_time": 1,
+                "duration": 10
+            },
+            {
+                "come_time": 7,
+                "duration": 1
+            },
+            {
+                "come_time": 5,
+                "duration": 6
+            }
+        ]
+    },
+    {
+        "lottery_seed": 17913084086259473856,
+        "task_list": [
+            {
+                "come_time": 2,
+                "duration": 11
+            },
+            {
+                "come_time": 1,
+                "duration": 3
+            },
+            {
+                "come_time": 8,
+                "duration": 9
+            },
+            {
+                "come_time": 5,
+                "duration": 9
+            },
+            {
+                "come_time": 5,
+                "duration": 14
+            },
+            {
+                "come_time": 8,
+                "duration": 9
+            },
+            {
+                "come_time": 0,
+                "duration": 19
+            },
+            {
+                "come_time": 3,
+                "duration": 15
+            },
+            {
+                "come_time": 2,
+                "duration": 13
+            },
+            {
+                "come_time": 8,
+                "duration": 17
+            }
+        ]
+    },
+    {
+        "lottery_seed": 9607813229239146753,
+        "task_list": [
+            {
+                "come_time": 0,
+                "duration": 6
+            },
+            {
+                "come_time": 5,
+                "duration": 18
+            },
+            {
+                "come_time": 2,
+                "duration": 6
+            },
+            {
+                "come_time": 6,
+                "duration": 5
+            },
+            {
+                "come_time": 1,
+                "duration": 4
+            },
+            {
+                "come_time": 2,
+                "duration": 6
+            },
+            {
+                "come_time": 4,
+                "duration": 19
+            },
+            {
+                "come_time": 4,
+                "duration": 15
+            },
+            {
+                "come_time": 4,
+                "duration": 4
+            },
+            {
+                "come_time": 2,
+                "duration": 10
+            }
+        ]
+    },
+    {
+        "lottery_seed": 16735213011025911647,
+        "task_list": [
+            {
+                "come_time": 4,
+                "duration": 7
+            },
+            {
+                "come_time": 5,
+                "duration": 1
+            },
+            {
+                "come_time": 1,
+                "duration": 8
+            },
+            {
+                "come_time": 5,
+                "duration": 4
+            },
+            {
+                "come_time": 8,
+                "duration": 19
+            },
+            {
+                "come_time": 1,
+                "duration": 16
+            },
+            {
+                "come_time": 8,
+                "duration": 8
+            },
+            {
+                "come_time": 4,
+                "duration": 8
+            },
+            {
+                "come_time": 6,
+                "duration": 2
+            },
+            {
+                "come_time": 3,
+                "duration": 9
+            }
+        ]
+    },
+    {
+        "lottery_seed": 1808333577608212482,
+        "task_list": [
+            {
+                "come_time": 6,
+                "duration": 6
+            },
+            {
+                "come_time": 5,
+                "duration": 9
+            },
+            {
+                "come_time": 3,
+                "duration": 6
+            },
+            {
+                "come_time": 6,
+                "duration": 10
+            },
+            {
+                "come_time": 4,
+                "duration": 5
+            },
+            {
+                "come_time": 1,
+                "duration": 4
+            },
+            {
+                "come_time": 4,
+                "duration": 6
+            },
+            {
+                "come_time": 4,
+                "duration": 12
+            },
+            {
+                "come_time": 0,
+                "duration": 13
+            },
+            {
+                "come_time": 3,
+                "duration": 18
+            }
+        ]
+    },
+    {
+        "lottery_seed": 5357951734191076066,
+        "task_list": [
+            {
+                "come_time": 6,
+                "duration": 12
+            },
+            {
+                "come_time": 2,
+                "duration": 1
+            },
+            {
+                "come_time": 9,
+                "duration": 2
+            },
+            {
+                "come_time": 2,
+                "duration": 6
+            },
+            {
+                "come_time": 1,
+                "duration": 8
+            },
+            {
+                "come_time": 0,
+                "duration": 17
+            },
+            {
+                "come_time": 8,
+                "duration": 6
+            },
+            {
+                "come_time": 0,
+                "duration": 1
+            },
+            {
+                "come_time": 8,
+                "duration": 7
+            },
+            {
+                "come_time": 5,
+                "duration": 17
+            }
+        ]
+    },
+    {
+        "lottery_seed": 6017270795475073099,
+        "task_list": [
+            {
+                "come_time": 2,
+                "duration": 12
+            },
+            {
+                "come_time": 3,
+                "duration": 4
+            },
+            {
+                "come_time": 8,
+                "duration": 4
+            },
+            {
+                "come_time": 2,
+                "duration": 5
+            },
+            {
+                "come_time": 1,
+                "duration": 2
+            },
+            {
+                "come_time": 2,
+                "duration": 14
+            },
+            {
+                "come_time": 9,
+                "duration": 12
+            },
+            {
+                "come_time": 1,
+                "duration": 15
+            },
+            {
+                "come_time": 5,
+                "duration": 11
+            },
+            {
+                "come_time": 7,
+                "duration": 5
+            }
+        ]
+    },
+    {
+        "lottery_seed": 5658306027497883044,
+        "task_list": [
+            {
+                "come_time": 5,
+                "duration": 13
+            },
+            {
+                "come_time": 6,
+                "duration": 9
+            },
+            {
+                "come_time": 5,
+                "duration": 9
+            },
+            {
+                "come_time": 4,
+                "duration": 15
+            },
+            {
+                "come_time": 3,
+                "duration": 16
+            },
+            {
+                "come_time": 2,
+                "duration": 8
+            },
+            {
+                "come_time": 9,
+                "duration": 9
+            },
+            {
+                "come_time": 7,
+                "duration": 18
+            },
+            {
+                "come_time": 8,
+                "duration": 3
+            },
+            {
+                "come_time": 7,
+                "duration": 7
+            }
+        ]
+    },
+    {
+        "lottery_seed": 9808502622770168519,
+        "task_list": [
+            {
+                "come_time": 1,
+                "duration": 19
+            },
+            {
+                "come_time": 9,
+                "duration": 6
+            },
+            {
+                "come_time": 6,
+                "duration": 18
+            },
+            {
+                "come_time": 8,
+                "duration": 8
+            },
+            {
+                "come_time": 2,
+                "duration": 6
+            },
+            {
+                "come_time": 1,
+                "duration": 17
+            },
+            {
+                "come_time": 9,
+                "duration": 18
+            },
+            {
+                "come_time": 0,
+                "duration": 1
+            },
+            {
+                "come_time": 7,
+                "duration": 15
+            },
+            {
+                "come_time": 8,
+                "duration": 5
+            }
+        ]
+    },
+    {
+        "lottery_seed": 4364175949743608163,
+        "task_list": [
+            {
+                "come_time": 0,
+                "duration": 5
+            },
+            {
+                "come_time": 3,
+                "duration": 16
+            },
+            {
+                "come_time": 3,
+                "duration": 5
+            },
+            {
+                "come_time": 1,
+                "duration": 17
+            },
+            {
+                "come_time": 3,
+                "duration": 9
+            },
+            {
+                "come_time": 6,
+                "duration": 18
+            },
+            {
+                "come_time": 8,
+                "duration": 1
+            },
+            {
+                "come_time": 2,
+                "duration": 14
+            },
+            {
+                "come_time": 2,
+                "duration": 13
+            },
+            {
+                "come_time": 4,
+                "duration": 16
+            }
+        ]
+    },
+    {
+        "lottery_seed": 17936421317421473588,
+        "task_list": [
+            {
+                "come_time": 7,
+                "duration": 19
+            },
+            {
+                "come_time": 2,
+                "duration": 9
+            },
+            {
+                "come_time": 7,
+                "duration": 13
+            },
+            {
+                "come_time": 1,
+                "duration": 20
+            },
+            {
+                "come_time": 5,
+                "duration": 5
+            },
+            {
+                "come_time": 8,
+                "duration": 10
+            },
+            {
+                "come_time": 2,
+                "duration": 20
+            },
+            {
+                "come_time": 5,
+                "duration": 13
+            },
+            {
+                "come_time": 5,
+                "duration": 16
+            },
+            {
+                "come_time": 7,
+                "duration": 10
+            }
+        ]
+    },
+    {
+        "lottery_seed": 2522362452770058,
+        "task_list": [
+            {
+                "come_time": 6,
+                "duration": 11
+            },
+            {
+                "come_time": 3,
+                "duration": 8
+            },
+            {
+                "come_time": 4,
+                "duration": 7
+            },
+            {
+                "come_time": 4,
+                "duration": 9
+            },
+            {
+                "come_time": 9,
+                "duration": 1
+            },
+            {
+                "come_time": 9,
+                "duration": 5
+            },
+            {
+                "come_time": 6,
+                "duration": 19
+            },
+            {
+                "come_time": 7,
+                "duration": 5
+            },
+            {
+                "come_time": 5,
+                "duration": 10
+            },
+            {
+                "come_time": 6,
+                "duration": 8
+            }
+        ]
+    },
+    {
+        "lottery_seed": 13746643227659115401,
+        "task_list": [
+            {
+                "come_time": 6,
+                "duration": 11
+            },
+            {
+                "come_time": 9,
+                "duration": 5
+            },
+            {
+                "come_time": 9,
+                "duration": 1
+            },
+            {
+                "come_time": 5,
+                "duration": 20
+            },
+            {
+                "come_time": 9,
+                "duration": 1
+            },
+            {
+                "come_time": 3,
+                "duration": 15
+            },
+            {
+                "come_time": 2,
+                "duration": 16
+            },
+            {
+                "come_time": 0,
+                "duration": 19
+            },
+            {
+                "come_time": 7,
+                "duration": 6
+            },
+            {
+                "come_time": 3,
+                "duration": 20
+            }
+        ]
+    },
+    {
+        "lottery_seed": 4263282521234332627,
+        "task_list": [
+            {
+                "come_time": 4,
+                "duration": 16
+            },
+            {
+                "come_time": 0,
+                "duration": 8
+            },
+            {
+                "come_time": 0,
+                "duration": 2
+            },
+            {
+                "come_time": 9,
+                "duration": 1
+            },
+            {
+                "come_time": 1,
+                "duration": 11
+            },
+            {
+                "come_time": 0,
+                "duration": 7
+            },
+            {
+                "come_time": 5,
+                "duration": 7
+            },
+            {
+                "come_time": 3,
+                "duration": 19
+            },
+            {
+                "come_time": 0,
+                "duration": 8
+            },
+            {
+                "come_time": 5,
+                "duration": 11
+            }
+        ]
+    },
+    {
+        "lottery_seed": 13561337670003530419,
+        "task_list": [
+            {
+                "come_time": 0,
+                "duration": 2
+            },
+            {
+                "come_time": 7,
+                "duration": 2
+            },
+            {
+                "come_time": 4,
+                "duration": 12
+            },
+            {
+                "come_time": 4,
+                "duration": 7
+            },
+            {
+                "come_time": 5,
+                "duration": 5
+            },
+            {
+                "come_time": 1,
+                "duration": 15
+            },
+            {
+                "come_time": 6,
+                "duration": 9
+            },
+            {
+                "come_time": 0,
+                "duration": 10
+            },
+            {
+                "come_time": 8,
+                "duration": 14
+            },
+            {
+                "come_time": 7,
+                "duration": 4
+            }
+        ]
+    },
+    {
+        "lottery_seed": 6277323730076742345,
+        "task_list": [
+            {
+                "come_time": 3,
+                "duration": 20
+            },
+            {
+                "come_time": 2,
+                "duration": 8
+            },
+            {
+                "come_time": 3,
+                "duration": 12
+            },
+            {
+                "come_time": 1,
+                "duration": 11
+            },
+            {
+                "come_time": 5,
+                "duration": 1
+            },
+            {
+                "come_time": 5,
+                "duration": 13
+            },
+            {
+                "come_time": 5,
+                "duration": 7
+            },
+            {
+                "come_time": 1,
+                "duration": 19
+            },
+            {
+                "come_time": 3,
+                "duration": 2
+            },
+            {
+                "come_time": 1,
+                "duration": 20
+            }
+        ]
+    },
+    {
+        "lottery_seed": 3140778196818780957,
+        "task_list": [
+            {
+                "come_time": 8,
+                "duration": 17
+            },
+            {
+                "come_time": 9,
+                "duration": 6
+            },
+            {
+                "come_time": 4,
+                "duration": 18
+            },
+            {
+                "come_time": 7,
+                "duration": 5
+            },
+            {
+                "come_time": 7,
+                "duration": 9
+            },
+            {
+                "come_time": 4,
+                "duration": 4
+            },
+            {
+                "come_time": 0,
+                "duration": 14
+            },
+            {
+                "come_time": 7,
+                "duration": 10
+            },
+            {
+                "come_time": 4,
+                "duration": 19
+            },
+            {
+                "come_time": 5,
+                "duration": 12
+            }
+        ]
+    },
+    {
+        "lottery_seed": 17139468806681091451,
+        "task_list": [
+            {
+                "come_time": 5,
+                "duration": 9
+            },
+            {
+                "come_time": 3,
+                "duration": 2
+            },
+            {
+                "come_time": 2,
+                "duration": 10
+            },
+            {
+                "come_time": 7,
+                "duration": 19
+            },
+            {
+                "come_time": 4,
+                "duration": 11
+            },
+            {
+                "come_time": 4,
+                "duration": 9
+            },
+            {
+                "come_time": 6,
+                "duration": 8
+            },
+            {
+                "come_time": 1,
+                "duration": 16
+            },
+            {
+                "come_time": 3,
+                "duration": 18
+            },
+            {
+                "come_time": 9,
+                "duration": 14
+            }
+        ]
+    },
+    {
+        "lottery_seed": 18065590129910627095,
+        "task_list": [
+            {
+                "come_time": 3,
+                "duration": 2
+            },
+            {
+                "come_time": 7,
+                "duration": 13
+            },
+            {
+                "come_time": 7,
+                "duration": 18
+            },
+            {
+                "come_time": 0,
+                "duration": 18
+            },
+            {
+                "come_time": 1,
+                "duration": 2
+            },
+            {
+                "come_time": 5,
+                "duration": 18
+            },
+            {
+                "come_time": 9,
+                "duration": 3
+            },
+            {
+                "come_time": 0,
+                "duration": 18
+            },
+            {
+                "come_time": 0,
+                "duration": 11
+            },
+            {
+                "come_time": 6,
+                "duration": 11
+            }
+        ]
+    },
+    {
+        "lottery_seed": 7448010517619151037,
+        "task_list": [
+            {
+                "come_time": 4,
+                "duration": 20
+            },
+            {
+                "come_time": 2,
+                "duration": 20
+            },
+            {
+                "come_time": 7,
+                "duration": 8
+            },
+            {
+                "come_time": 4,
+                "duration": 12
+            },
+            {
+                "come_time": 4,
+                "duration": 9
+            },
+            {
+                "come_time": 4,
+                "duration": 17
+            },
+            {
+                "come_time": 5,
+                "duration": 10
+            },
+            {
+                "come_time": 3,
+                "duration": 7
+            },
+            {
+                "come_time": 2,
+                "duration": 8
+            },
+            {
+                "come_time": 8,
+                "duration": 5
+            }
+        ]
+    },
+    {
+        "lottery_seed": 4229916103839596501,
+        "task_list": [
+            {
+                "come_time": 1,
+                "duration": 18
+            },
+            {
+                "come_time": 6,
+                "duration": 9
+            },
+            {
+                "come_time": 0,
+                "duration": 4
+            },
+            {
+                "come_time": 8,
+                "duration": 15
+            },
+            {
+                "come_time": 7,
+                "duration": 15
+            },
+            {
+                "come_time": 9,
+                "duration": 15
+            },
+            {
+                "come_time": 0,
+                "duration": 9
+            },
+            {
+                "come_time": 6,
+                "duration": 7
+            },
+            {
+                "come_time": 8,
+                "duration": 5
+            },
+            {
+                "come_time": 6,
+                "duration": 13
+            }
+        ]
+    },
+    {
+        "lottery_seed": 2847024745357802465,
+        "task_list": [
+            {
+                "come_time": 4,
+                "duration": 12
+            },
+            {
+                "come_time": 7,
+                "duration": 8
+            },
+            {
+                "come_time": 7,
+                "duration": 2
+            },
+            {
+                "come_time": 2,
+                "duration": 17
+            },
+            {
+                "come_time": 0,
+                "duration": 12
+            },
+            {
+                "come_time": 2,
+                "duration": 7
+            },
+            {
+                "come_time": 2,
+                "duration": 16
+            },
+            {
+                "come_time": 4,
+                "duration": 5
+            },
+            {
+                "come_time": 2,
+                "duration": 6
+            },
+            {
+                "come_time": 7,
+                "duration": 6
+            }
+        ]
+    },
+    {
+        "lottery_seed": 6891632347205624761,
+        "task_list": [
+            {
+                "come_time": 2,
+                "duration": 9
+            },
+            {
+                "come_time": 0,
+                "duration": 3
+            },
+            {
+                "come_time": 2,
+                "duration": 6
+            },
+            {
+                "come_time": 1,
+                "duration": 15
+            },
+            {
+                "come_time": 9,
+                "duration": 12
+            },
+            {
+                "come_time": 5,
+                "duration": 9
+            },
+            {
+                "come_time": 4,
+                "duration": 5
+            },
+            {
+                "come_time": 2,
+                "duration": 15
+            },
+            {
+                "come_time": 5,
+                "duration": 6
+            },
+            {
+                "come_time": 9,
+                "duration": 18
+            }
+        ]
+    },
+    {
+        "lottery_seed": 6338894890864170591,
+        "task_list": [
+            {
+                "come_time": 9,
+                "duration": 18
+            },
+            {
+                "come_time": 4,
+                "duration": 5
+            },
+            {
+                "come_time": 7,
+                "duration": 13
+            },
+            {
+                "come_time": 3,
+                "duration": 1
+            },
+            {
+                "come_time": 5,
+                "duration": 15
+            },
+            {
+                "come_time": 9,
+                "duration": 2
+            },
+            {
+                "come_time": 7,
+                "duration": 15
+            },
+            {
+                "come_time": 9,
+                "duration": 12
+            },
+            {
+                "come_time": 2,
+                "duration": 17
+            },
+            {
+                "come_time": 7,
+                "duration": 1
+            }
+        ]
+    },
+    {
+        "lottery_seed": 6416486116509712508,
+        "task_list": [
+            {
+                "come_time": 0,
+                "duration": 9
+            },
+            {
+                "come_time": 8,
+                "duration": 18
+            },
+            {
+                "come_time": 4,
+                "duration": 8
+            },
+            {
+                "come_time": 8,
+                "duration": 16
+            },
+            {
+                "come_time": 5,
+                "duration": 1
+            },
+            {
+                "come_time": 9,
+                "duration": 20
+            },
+            {
+                "come_time": 7,
+                "duration": 4
+            },
+            {
+                "come_time": 1,
+                "duration": 16
+            },
+            {
+                "come_time": 9,
+                "duration": 9
+            },
+            {
+                "come_time": 7,
+                "duration": 9
+            }
+        ]
+    },
+    {
+        "lottery_seed": 5216827879117405697,
+        "task_list": [
+            {
+                "come_time": 1,
+                "duration": 7
+            },
+            {
+                "come_time": 9,
+                "duration": 10
+            },
+            {
+                "come_time": 4,
+                "duration": 9
+            },
+            {
+                "come_time": 5,
+                "duration": 13
+            },
+            {
+                "come_time": 1,
+                "duration": 10
+            },
+            {
+                "come_time": 0,
+                "duration": 11
+            },
+            {
+                "come_time": 3,
+                "duration": 4
+            },
+            {
+                "come_time": 9,
+                "duration": 15
+            },
+            {
+                "come_time": 4,
+                "duration": 13
+            },
+            {
+                "come_time": 9,
+                "duration": 16
+            }
+        ]
+    },
+    {
+        "lottery_seed": 16333147295836898812,
+        "task_list": [
+            {
+                "come_time": 7,
+                "duration": 6
+            },
+            {
+                "come_time": 8,
+                "duration": 1
+            },
+            {
+                "come_time": 7,
+                "duration": 3
+            },
+            {
+                "come_time": 1,
+                "duration": 7
+            },
+            {
+                "come_time": 6,
+                "duration": 10
+            },
+            {
+                "come_time": 4,
+                "duration": 12
+            },
+            {
+                "come_time": 0,
+                "duration": 20
+            },
+            {
+                "come_time": 2,
+                "duration": 15
+            },
+            {
+                "come_time": 8,
+                "duration": 5
+            },
+            {
+                "come_time": 1,
+                "duration": 1
+            }
+        ]
+    },
+    {
+        "lottery_seed": 10537269649005628413,
+        "task_list": [
+            {
+                "come_time": 5,
+                "duration": 14
+            },
+            {
+                "come_time": 2,
+                "duration": 13
+            },
+            {
+                "come_time": 3,
+                "duration": 20
+            },
+            {
+                "come_time": 9,
+                "duration": 15
+            },
+            {
+                "come_time": 3,
+                "duration": 15
+            },
+            {
+                "come_time": 8,
+                "duration": 6
+            },
+            {
+                "come_time": 5,
+                "duration": 1
+            },
+            {
+                "come_time": 6,
+                "duration": 15
+            },
+            {
+                "come_time": 1,
+                "duration": 13
+            },
+            {
+                "come_time": 5,
+                "duration": 20
+            }
+        ]
+    }
+]
