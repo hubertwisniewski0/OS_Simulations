@@ -29,12 +29,12 @@ class SimulationPlotter:
             for scheduler_algo, scheduler_stats in data[i].items():
                 self.axes[i].plot(scheduler_stats, '.', label=scheduler_algo)
 
-        self.axes[0].set_title('Turnaround time')
-        self.axes[1].set_title('Waiting time')
+        self.axes[0].set_title('Turnaround time', fontsize='medium')
+        self.axes[1].set_title('Waiting time', fontsize='medium')
 
         self.figure.suptitle('Average turnaround/waiting time vs simulation number')
-        self.figure.supxlabel('Simulation')
-        self.figure.supylabel('Average turnaround/waiting time [cycles]')
+        self.figure.supxlabel('Simulation', fontsize='small')
+        self.figure.supylabel('Average turnaround/waiting time [cycles]', fontsize='small')
         self.axes[0].legend(framealpha=0.5, fontsize='xx-small', markerscale=0.5)
 
     def save_plot(self, output_file: str):
