@@ -16,7 +16,7 @@ class SchedulerOptimal(Scheduler):
         print(self.best_turnaround_time/len(self.task_list), file=sys.stderr)
 
     def recurse_tasks(self, starting_point: List[Task], passed_time: int, accumulated_turnaround_time: int):
-        if -1 < self.best_turnaround_time <= accumulated_turnaround_time:
+        if accumulated_turnaround_time >= self.best_turnaround_time > -1:
             return
 
         assert len(starting_point) <= len(self.task_list)
