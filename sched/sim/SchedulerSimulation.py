@@ -1,4 +1,5 @@
 import json
+import sys
 from typing import List, Dict, Tuple
 from numpy import average
 from concurrent.futures import ProcessPoolExecutor
@@ -65,9 +66,11 @@ class SchedulerSimulation(Serializable):
         Concurrently perform all simulation groups
         """
         with ProcessPoolExecutor(max_workers=self.jobs) as executor:
-            self.scheduler_groups = [scheduler_group for scheduler_group in
-                                     executor.map(self.simulation_worker,
-                                                  zip(self.simulations, iter(lambda: self.enable_optimal, None)))]
+            for scheduler_group in executor.map(self.simulation_worker,
+                                                zip(self.simulations, iter(lambda: self.enable_optimal, None))):
+                self.scheduler_groups.append(scheduler_group)
+                print('Simulations complete: {}/{}'.format(len(self.scheduler_groups), len(self.simulations)),
+                      file=sys.stderr)
 
     def create_plot(self, output_file: str):
         """

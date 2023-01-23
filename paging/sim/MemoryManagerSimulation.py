@@ -1,4 +1,5 @@
 import json
+import sys
 from typing import List, Dict, Optional
 from numpy import average
 from concurrent.futures import ProcessPoolExecutor
@@ -53,8 +54,10 @@ class MemoryManagerSimulation(Serializable):
         Concurrently perform all simulation groups
         """
         with ProcessPoolExecutor(max_workers=self.jobs) as executor:
-            self.memory_manager_groups = [memory_manager for memory_manager in
-                                          executor.map(self.simulation_worker, self.simulations)]
+            for memory_manager_group in executor.map(self.simulation_worker, self.simulations):
+                self.memory_manager_groups.append(memory_manager_group)
+                print('Simulations complete: {}/{}'.format(len(self.memory_manager_groups), len(self.simulations)),
+                      file=sys.stderr)
 
     def create_plot(self, output_file: str):
         """

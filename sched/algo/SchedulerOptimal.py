@@ -1,4 +1,3 @@
-import sys
 from typing import Optional, List
 from ..core.Scheduler import Scheduler
 from ..core.Task import Task
@@ -27,10 +26,6 @@ class SchedulerOptimal(Scheduler):
         self.best_turnaround_time = None
 
         self.recurse_tasks([], 0, 0)
-
-        # For debugging
-        print('Optimal solution found: ',
-              self.best_turnaround_time / len(self.task_list) if self.best_turnaround_time else None, file=sys.stderr)
 
     def recurse_tasks(self, starting_point: List[Task], passed_time: int, accumulated_turnaround_time: int):
         """
