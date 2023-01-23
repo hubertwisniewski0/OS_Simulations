@@ -46,8 +46,6 @@ class SchedulerSimulation(Serializable):
                                      executor.map(self.simulation_worker,
                                                   zip(self.simulations, iter(lambda: self.enable_optimal, None)))]
 
-        self.generate_stats()
-
     def create_plot(self, output_file: str):
         plotter = SimulationPlotter()
         plotter.generate_plot(self.scheduler_groups)

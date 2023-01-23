@@ -15,6 +15,7 @@ args = ap.parse_args()
 simulation = MemoryManagerSimulation(args.jobs)
 simulation.read_data(args.input_file)
 simulation.simulate()
+simulation.generate_stats()
 simulation.create_plot(args.plot_output_file)
 
 with open(args.output_file, 'wt') as f:

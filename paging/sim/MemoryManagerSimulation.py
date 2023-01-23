@@ -38,8 +38,6 @@ class MemoryManagerSimulation(Serializable):
             self.memory_manager_groups = [memory_manager for memory_manager in
                                           executor.map(self.simulation_worker, self.simulations)]
 
-        self.generate_stats()
-
     def create_plot(self, output_file: str):
         plotter = SimulationPlotter()
         plotter.generate_plot(self.memory_manager_groups)
