@@ -1,4 +1,4 @@
-from typing import Dict, List
+from typing import Dict, List, Tuple
 from matplotlib import pyplot
 from .SchedulerGroup import SchedulerGroup
 
@@ -8,7 +8,8 @@ class SimulationPlotter:
         self.figure = None
         self.axes = None
 
-    def generate_plot(self, scheduler_groups: List[SchedulerGroup]):
+    @staticmethod
+    def extract_data(scheduler_groups: List[SchedulerGroup]) -> Tuple[Dict[str, List[float]], Dict[str, List[float]]]:
         data_turnaround_time: Dict[str, List[float]] = {}
         data_waiting_time: Dict[str, List[float]] = {}
 
@@ -21,6 +22,11 @@ class SimulationPlotter:
 
                 data_turnaround_time[scheduler_algo].append(scheduler.average_task_turnaround_time)
                 data_waiting_time[scheduler_algo].append(scheduler.average_task_waiting_time)
+
+        return data_turnaround_time, data_waiting_time
+
+    def generate_plot(self, scheduler_groups: List[SchedulerGroup]):
+        data_turnaround_time, data_waiting_time = self.extract_data(scheduler_groups)
 
         self.figure, self.axes = pyplot.subplots(2, sharex='col')
 

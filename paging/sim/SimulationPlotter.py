@@ -8,7 +8,8 @@ class SimulationPlotter:
         self.figure = None
         self.axes = None
 
-    def generate_plot(self, mm_groups: List[MemoryManagerGroup]):
+    @staticmethod
+    def extract_data(mm_groups: List[MemoryManagerGroup]) -> Dict[str, Dict[str, List[int]]]:
         data_page_faults: Dict[str, Dict[str, List[int]]] = {}
 
         for mm_group in mm_groups:
@@ -22,6 +23,11 @@ class SimulationPlotter:
                     data_page_faults[mm_size][mm_algo] = []
 
                 data_page_faults[mm_size][mm_algo].append(mm.page_faults)
+
+        return data_page_faults
+
+    def generate_plot(self, mm_groups: List[MemoryManagerGroup]):
+        data_page_faults = self.extract_data(mm_groups)
 
         self.figure, self.axes = pyplot.subplots(len(data_page_faults), sharex='col',
                                                  figsize=[6.4, 4.8 + 2 * (len(data_page_faults) - 2)],
