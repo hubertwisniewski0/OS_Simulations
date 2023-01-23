@@ -5,6 +5,7 @@ class Page(Serializable):
     """
     Page class
     """
+
     def __init__(self, page_number: int):
         """
         :param page_number: unique number of page

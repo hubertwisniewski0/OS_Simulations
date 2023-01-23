@@ -1,17 +1,19 @@
 from typing import Dict
+
+from utils.Serializable import Serializable
 from .SimulationDescription import SimulationDescription
-from ..core.Scheduler import Scheduler
 from ..algo.SchedulerFCFS import SchedulerFCFS
-from ..algo.SchedulerSJF import SchedulerSJF
 from ..algo.SchedulerLottery import SchedulerLottery
 from ..algo.SchedulerOptimal import SchedulerOptimal
-from utils.Serializable import Serializable
+from ..algo.SchedulerSJF import SchedulerSJF
+from ..core.Scheduler import Scheduler
 
 
 class SchedulerGroup(Serializable):
     """
     Group of schedulers performing simulations based on the same input data
     """
+
     def __init__(self, simulation: SimulationDescription, enable_optimal: bool):
         """
         :param simulation: simulation description

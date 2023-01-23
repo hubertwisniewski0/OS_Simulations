@@ -1,6 +1,7 @@
 import json
 from argparse import ArgumentParser
 from typing import List
+
 from paging.sim.SimulationDescription import SimulationDescription
 from utils.Encoder import Encoder
 from utils.ExtendedRandom import ExtendedRandom

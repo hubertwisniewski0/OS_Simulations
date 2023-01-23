@@ -1,5 +1,6 @@
 from random import Random
 from typing import Optional, List
+
 from ..core.Scheduler import Scheduler
 from ..core.Task import Task
 
@@ -8,6 +9,7 @@ class SchedulerLottery(Scheduler):
     """
     Lottery scheduling algorithm implementation
     """
+
     def __init__(self, task_list: List[Task], seed: Optional[int]):
         """
         :param task_list: list of tasks to process

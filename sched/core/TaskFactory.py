@@ -5,6 +5,7 @@ class TaskFactory:
     """
     Creates tasks with unique IDs
     """
+
     def __init__(self):
         self.created_tasks = 0
 

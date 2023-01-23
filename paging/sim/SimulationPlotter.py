@@ -1,5 +1,7 @@
 from typing import Dict, List
+
 from matplotlib import pyplot
+
 from .MemoryManagerGroup import MemoryManagerGroup
 
 
@@ -7,6 +9,7 @@ class SimulationPlotter:
     """
     Creates a plot using `matplotlib`
     """
+
     def __init__(self):
         self.figure = None
         self.axes = None

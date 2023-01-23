@@ -1,19 +1,22 @@
 import json
 import sys
-from typing import List, Dict, Tuple
-from numpy import average
 from concurrent.futures import ProcessPoolExecutor
+from typing import List, Dict, Tuple
+
+from numpy import average
+
+from utils.Serializable import Serializable
 from .SchedulerGroup import SchedulerGroup
 from .SimulationDescription import SimulationDescription
 from .SimulationPlotter import SimulationPlotter
 from ..core.TaskFactory import TaskFactory
-from utils.Serializable import Serializable
 
 
 class SchedulerSimulation(Serializable):
     """
     Responsible for reading input data, performing all simulations and drawing plots
     """
+
     def __init__(self, jobs: int, enable_optimal: bool):
         """
         :param jobs: maximum number of concurrent simulations or `None` to determine automatically

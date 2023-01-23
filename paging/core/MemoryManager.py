@@ -1,7 +1,8 @@
 from copy import deepcopy
 from typing import List, Optional
-from .Page import Page
+
 from utils.Serializable import Serializable
+from .Page import Page
 
 
 class MemoryFull(Exception):
@@ -15,6 +16,7 @@ class MemoryManager(Serializable):
     """
     General memory manager implementation
     """
+
     def __init__(self, access_list: List[int], memory_size: int):
         """
         :param access_list: list of sequentially accessed pages

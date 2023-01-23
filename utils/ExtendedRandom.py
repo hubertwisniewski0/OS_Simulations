@@ -5,6 +5,7 @@ class ExtendedRandom(Random):
     """
     Extends `Random` class with some useful methods
     """
+
     def bounded_int_gaussian(self, a: int, b: int, mu: float, sigma: float) -> int:
         """
         Return a random integer with Gaussian distribution, bounded

@@ -1,4 +1,5 @@
 from typing import Optional
+
 from ..core.Scheduler import Scheduler
 from ..core.Task import Task
 
@@ -7,6 +8,7 @@ class SchedulerSJF(Scheduler):
     """
     Shortest Job First scheduling algorithm implementation
     """
+
     def select_next_task(self) -> Optional[Task]:
         if len(self.waiting_tasks) == 0:
             return None

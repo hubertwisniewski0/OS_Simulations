@@ -1,4 +1,5 @@
 from enum import Enum, auto
+
 from .TaskBase import TaskBase
 
 
@@ -15,6 +16,7 @@ class Task(TaskBase):
     """
     Task class
     """
+
     def __init__(self, task_id: int, come_time: int, duration: int):
         """
         :param task_id: unique task ID

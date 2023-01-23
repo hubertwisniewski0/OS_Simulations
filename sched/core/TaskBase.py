@@ -5,6 +5,7 @@ class TaskBase(Serializable):
     """
     Task base class (used for simulation input data generation)
     """
+
     def __init__(self, come_time: int, duration: int):
         """
         :param come_time: time when the task becomes available to be run

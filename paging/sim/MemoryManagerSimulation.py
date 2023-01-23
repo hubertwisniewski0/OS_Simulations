@@ -1,18 +1,21 @@
 import json
 import sys
-from typing import List, Dict, Optional
-from numpy import average
 from concurrent.futures import ProcessPoolExecutor
-from .SimulationDescription import SimulationDescription
-from .MemoryManagerGroup import MemoryManagerGroup
-from .SimulationPlotter import SimulationPlotter
+from typing import List, Dict, Optional
+
+from numpy import average
+
 from utils.Serializable import Serializable
+from .MemoryManagerGroup import MemoryManagerGroup
+from .SimulationDescription import SimulationDescription
+from .SimulationPlotter import SimulationPlotter
 
 
 class MemoryManagerSimulation(Serializable):
     """
     Responsible for reading input data, performing all simulations and drawing plots
     """
+
     def __init__(self, jobs: Optional[int]):
         """
         :param jobs: maximum number of concurrent simulations or `None` to determine automatically

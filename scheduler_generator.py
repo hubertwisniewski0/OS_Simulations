@@ -1,6 +1,7 @@
 import json
 from argparse import ArgumentParser
 from typing import List
+
 from sched.core.TaskBase import TaskBase
 from sched.sim.SimulationDescription import SimulationDescription
 from utils.Encoder import Encoder

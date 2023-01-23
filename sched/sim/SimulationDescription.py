@@ -1,6 +1,7 @@
 from typing import Optional, List
-from ..core.Task import Task
+
 from utils.Serializable import Serializable
+from ..core.Task import Task
 
 
 class SimulationDescription(Serializable):

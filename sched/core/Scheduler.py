@@ -1,6 +1,8 @@
-from typing import List, Optional
 from copy import deepcopy
+from typing import List, Optional
+
 from numpy import average
+
 from utils.Serializable import Serializable
 from .Task import Task
 
@@ -9,6 +11,7 @@ class Scheduler(Serializable):
     """
     General task scheduler implementation
     """
+
     def __init__(self, task_list: List[Task]):
         """
         :param task_list: list of tasks to process
