@@ -1,7 +1,7 @@
 import json
-from typing import List, Dict
+from typing import List, Dict, Tuple
 from numpy import average
-from concurrent.futures import ProcessPoolExecutor, Future
+from concurrent.futures import ProcessPoolExecutor
 from .SchedulerGroup import SchedulerGroup
 from .SimulationDescription import SimulationDescription
 from .SimulationPlotter import SimulationPlotter
@@ -32,16 +32,19 @@ class SchedulerSimulation(Serializable):
 
             self.simulations.append(desc)
 
-    def simulate(self):
-        futures: List[Future] = []
-        with ProcessPoolExecutor(max_workers=self.jobs) as executor:
-            for simulation in self.simulations:
-                sched_group = SchedulerGroup(simulation, self.enable_optimal)
-                self.scheduler_groups.append(sched_group)
-                futures.append(executor.submit(sched_group.simulate))
+    @staticmethod
+    def simulation_worker(parameters: Tuple[SimulationDescription, bool]) -> SchedulerGroup:
+        simulation, enable_optimal = parameters
+        sched_group = SchedulerGroup(simulation, enable_optimal)
+        sched_group.create_schedulers()
+        sched_group.simulate()
+        return sched_group
 
-        for i in range(len(futures)):
-            self.scheduler_groups[i] = futures[i].result()
+    def simulate(self):
+        with ProcessPoolExecutor(max_workers=self.jobs) as executor:
+            self.scheduler_groups = [scheduler_group for scheduler_group in
+                                     executor.map(self.simulation_worker,
+                                                  zip(self.simulations, iter(lambda: self.enable_optimal, None)))]
 
         self.generate_stats()
 

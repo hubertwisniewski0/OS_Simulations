@@ -1,7 +1,7 @@
 import json
 from typing import List, Dict
 from numpy import average
-from concurrent.futures import ProcessPoolExecutor, Future
+from concurrent.futures import ProcessPoolExecutor
 from .SimulationDescription import SimulationDescription
 from .MemoryManagerGroup import MemoryManagerGroup
 from .SimulationPlotter import SimulationPlotter
@@ -26,16 +26,17 @@ class MemoryManagerSimulation(Serializable):
 
             self.simulations.append(desc)
 
-    def simulate(self):
-        futures: List[Future] = []
-        with ProcessPoolExecutor(max_workers=self.jobs) as executor:
-            for simulation in self.simulations:
-                memory_manager_group = MemoryManagerGroup(simulation)
-                self.memory_manager_groups.append(memory_manager_group)
-                futures.append(executor.submit(memory_manager_group.simulate))
+    @staticmethod
+    def simulation_worker(simulation: SimulationDescription) -> MemoryManagerGroup:
+        mm_group = MemoryManagerGroup(simulation)
+        mm_group.create_managers()
+        mm_group.simulate()
+        return mm_group
 
-        for i in range(len(futures)):
-            self.memory_manager_groups[i] = futures[i].result()
+    def simulate(self):
+        with ProcessPoolExecutor(max_workers=self.jobs) as executor:
+            self.memory_manager_groups = [memory_manager for memory_manager in
+                                          executor.map(self.simulation_worker, self.simulations)]
 
         self.generate_stats()
 

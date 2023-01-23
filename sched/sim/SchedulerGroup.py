@@ -14,18 +14,17 @@ class SchedulerGroup(Serializable):
         self.schedulers: Dict[str, Scheduler] = {}
         self.enable_optimal = enable_optimal
 
-    def simulate(self):
+    def create_schedulers(self):
         self.schedulers["FCFS"] = SchedulerFCFS(self.simulation.task_list)
         self.schedulers["SJF"] = SchedulerSJF(self.simulation.task_list)
         self.schedulers["Lottery"] = SchedulerLottery(self.simulation.task_list, self.simulation.lottery_seed)
         if self.enable_optimal:
             self.schedulers["Optimal"] = SchedulerOptimal(self.simulation.task_list)
 
+    def simulate(self):
         for scheduler in self.schedulers.values():
             while scheduler.tick():
                 pass
-
-        return self
 
     def serialize(self):
         return self.schedulers
