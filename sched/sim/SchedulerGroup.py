@@ -9,12 +9,22 @@ from utils.Serializable import Serializable
 
 
 class SchedulerGroup(Serializable):
+    """
+    Group of schedulers performing simulations based on the same input data
+    """
     def __init__(self, simulation: SimulationDescription, enable_optimal: bool):
+        """
+        :param simulation: simulation description
+        :param enable_optimal: whether to enable optimal algorithm
+        """
         self.simulation = simulation
         self.schedulers: Dict[str, Scheduler] = {}
         self.enable_optimal = enable_optimal
 
     def create_schedulers(self):
+        """
+        Create all enabled schedulers
+        """
         self.schedulers["FCFS"] = SchedulerFCFS(self.simulation.task_list)
         self.schedulers["SJF"] = SchedulerSJF(self.simulation.task_list)
         self.schedulers["Lottery"] = SchedulerLottery(self.simulation.task_list, self.simulation.lottery_seed)
@@ -22,6 +32,9 @@ class SchedulerGroup(Serializable):
             self.schedulers["Optimal"] = SchedulerOptimal(self.simulation.task_list)
 
     def simulate(self):
+        """
+        Perform all simulations
+        """
         for scheduler in self.schedulers.values():
             while scheduler.tick():
                 pass

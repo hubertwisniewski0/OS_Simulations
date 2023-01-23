@@ -3,6 +3,7 @@ from argparse import ArgumentParser
 from sched.sim.SchedulerSimulation import SchedulerSimulation
 from utils.Encoder import Encoder
 
+# Define and parse arguments
 ap = ArgumentParser(description='Task scheduler simulation')
 ap.add_argument('input_file', help='Input data file')
 ap.add_argument('output_file', help='Raw output data file')
@@ -14,11 +15,13 @@ ap.add_argument('-o', '--optimal', action='store_true',
                 help='Enable optimal algorithm (caution: very high computational complexity!)')
 args = ap.parse_args()
 
+# Perform simulation
 simulation = SchedulerSimulation(args.jobs, args.optimal)
 simulation.read_data(args.input_file)
 simulation.simulate()
 simulation.generate_stats()
 simulation.create_plot(args.plot_output_file)
 
+# Dump simulation data
 with open(args.output_file, 'wt') as f:
     json.dump(simulation, f, indent=4, cls=Encoder)

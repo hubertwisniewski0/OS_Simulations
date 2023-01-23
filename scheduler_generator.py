@@ -6,7 +6,7 @@ from sched.sim.SimulationDescription import SimulationDescription
 from utils.Encoder import Encoder
 from utils.ExtendedRandom import ExtendedRandom
 
-
+# Define and parse arguments
 ap = ArgumentParser(description='Generate scheduler simulation input data',
                     epilog='NOTE: values generated using Gaussian distribution are still confined to their respective '
                            'bounds!')
@@ -31,6 +31,7 @@ rng = ExtendedRandom(args.seed)
 
 simulations: List[SimulationDescription] = []
 
+# Create simulation input data according to provided arguments and/or their values
 for i in range(args.simulations):
     desc = SimulationDescription()
     desc.task_list = []
@@ -45,8 +46,10 @@ for i in range(args.simulations):
 
         desc.task_list.append(TaskBase(come_time, duration))
 
+    # Generate a random seed for lottery algorithm for predictability
     desc.lottery_seed = rng.getrandbits(64)
     simulations.append(desc)
 
+# Save data
 with open(args.output_file, 'wt') as f:
     json.dump(simulations, f, indent=4, cls=Encoder)

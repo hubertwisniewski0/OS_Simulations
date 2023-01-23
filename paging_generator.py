@@ -5,6 +5,7 @@ from paging.sim.SimulationDescription import SimulationDescription
 from utils.Encoder import Encoder
 from utils.ExtendedRandom import ExtendedRandom
 
+# Define and parse arguments
 ap = ArgumentParser(description='Generate paging simulation input data',
                     epilog='NOTE: values generated using Gaussian distribution are still confined to their respective '
                            'bounds!')
@@ -26,6 +27,7 @@ rng = ExtendedRandom(args.seed)
 
 simulations: List[SimulationDescription] = []
 
+# Create simulation input data according to provided arguments and/or their values
 for i in range(args.simulations):
     desc = SimulationDescription()
     desc.access_list = [rng.bounded_int_gaussian(args.page_access[0], args.page_access[1], args.gaussian_page_access[0],
@@ -34,5 +36,6 @@ for i in range(args.simulations):
     desc.memory_sizes = args.memory_sizes
     simulations.append(desc)
 
+# Save data
 with open(args.output_file, 'wt') as f:
     json.dump(simulations, f, indent=4, cls=Encoder)

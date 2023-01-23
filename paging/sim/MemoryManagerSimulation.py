@@ -1,5 +1,5 @@
 import json
-from typing import List, Dict
+from typing import List, Dict, Optional
 from numpy import average
 from concurrent.futures import ProcessPoolExecutor
 from .SimulationDescription import SimulationDescription
@@ -9,13 +9,23 @@ from utils.Serializable import Serializable
 
 
 class MemoryManagerSimulation(Serializable):
-    def __init__(self, jobs: int):
+    """
+    Responsible for reading input data, performing all simulations and drawing plots
+    """
+    def __init__(self, jobs: Optional[int]):
+        """
+        :param jobs: maximum number of concurrent simulations or `None` to determine automatically
+        """
         self.memory_manager_groups: List[MemoryManagerGroup] = []
         self.simulations: List[SimulationDescription] = []
         self.average_page_faults: Dict[str, float] = {}
         self.jobs = jobs
 
     def read_data(self, input_file_name: str):
+        """
+        Read simulation data from file
+        :param input_file_name: name of the file to read
+        """
         with open(input_file_name, 'rt') as f:
             input_data = json.load(f)
 
@@ -28,24 +38,40 @@ class MemoryManagerSimulation(Serializable):
 
     @staticmethod
     def simulation_worker(simulation: SimulationDescription) -> MemoryManagerGroup:
+        """
+        Worker function responsible for creating and running a single simulation group. Meant to be run concurrently.
+        :param simulation: simulation description
+        :return: memory manager group after performing all simulations from the provided simulation description
+        """
         mm_group = MemoryManagerGroup(simulation)
         mm_group.create_managers()
         mm_group.simulate()
         return mm_group
 
     def simulate(self):
+        """
+        Concurrently perform all simulation groups
+        """
         with ProcessPoolExecutor(max_workers=self.jobs) as executor:
             self.memory_manager_groups = [memory_manager for memory_manager in
                                           executor.map(self.simulation_worker, self.simulations)]
 
     def create_plot(self, output_file: str):
+        """
+        Create plot based on simulation output date and save it to file
+        :param output_file: name of the file to save the plot to
+        """
         plotter = SimulationPlotter()
         plotter.generate_plot(self.memory_manager_groups)
         plotter.save_plot(output_file)
 
     def generate_stats(self):
+        """
+        Generate average page faults statistic
+        """
         page_faults: Dict[str, List[int]] = {}
 
+        # Collect data from complete simulations
         for mm_group in self.memory_manager_groups:
             for mm_name, mm in mm_group.memory_managers.items():
                 if mm_name not in page_faults.keys():
