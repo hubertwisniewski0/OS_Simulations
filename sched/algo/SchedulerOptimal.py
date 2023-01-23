@@ -10,19 +10,19 @@ class SchedulerOptimal(Scheduler):
 
         self.task_list.sort(key=lambda t: t.duration)
         self.optimal_order: List[Task] = []
-        self.best_turnaround_time = -1
+        self.best_turnaround_time = None
 
         self.recurse_tasks([], 0, 0)
-        print(self.best_turnaround_time/len(self.task_list), file=sys.stderr)
+        print(self.best_turnaround_time / len(self.task_list) if self.best_turnaround_time else None, file=sys.stderr)
 
     def recurse_tasks(self, starting_point: List[Task], passed_time: int, accumulated_turnaround_time: int):
-        if accumulated_turnaround_time >= self.best_turnaround_time > -1:
+        if self.best_turnaround_time and accumulated_turnaround_time >= self.best_turnaround_time:
             return
 
         assert len(starting_point) <= len(self.task_list)
 
         if len(starting_point) == len(self.task_list) and (
-                accumulated_turnaround_time < self.best_turnaround_time or self.best_turnaround_time < 0):
+                not self.best_turnaround_time or accumulated_turnaround_time < self.best_turnaround_time):
             self.best_turnaround_time = accumulated_turnaround_time
             self.optimal_order = starting_point
             return
