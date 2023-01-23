@@ -42,7 +42,7 @@ class SimulationPlotter:
             memory_size = list(data_page_faults.keys())[i]
             for mm_algo, page_faults in data_page_faults[memory_size].items():
                 self.axes[i].plot(page_faults, '.', label=mm_algo)
-            self.axes[i].set_title('Memory size: ' + str(memory_size), fontsize='medium')
+            self.axes[i].set_title('Memory size: ' + memory_size, fontsize='medium')
             self.axes[i].set_box_aspect(1 / 3)
 
         self.figure.suptitle('Page faults vs simulation number')
