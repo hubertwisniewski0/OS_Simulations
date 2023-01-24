@@ -7,11 +7,16 @@ class SimulationDescription(Serializable):
     """
     Paging simulation description (data class)
     """
-    # Memory sizes (in pages) to simulate
-    memory_sizes: List[int]
 
-    # List of page access requests
+    memory_sizes: List[int]
+    """
+    Memory sizes (in pages) to simulate
+    """
+
     access_list: List[int]
+    """
+    List of page access requests
+    """
 
     def serialize(self):
         return {

@@ -8,11 +8,16 @@ class SimulationDescription(Serializable):
     """
     Scheduler simulation description (data class)
     """
-    # Seed for lotery algorithm implementation's RNG or `None` to use the current system time
-    lottery_seed: Optional[int]
 
-    # List of tasks to process
+    lottery_seed: Optional[int]
+    """
+    Seed for lottery algorithm implementation's RNG or `None` to use the current system time
+    """
+
     task_list: List[Task]
+    """
+    List of tasks to process
+    """
 
     def serialize(self):
         return {
