@@ -7,6 +7,26 @@ from sched.sim.SimulationDescription import SimulationDescription
 from utils.Encoder import Encoder
 from utils.ExtendedRandom import ExtendedRandom
 
+
+def check_args(args_):
+    """
+    Check arguments' correctness
+    :param args_: argparse arguments namespace
+    """
+    if args_.simulations < 1:
+        raise ValueError('Number of simulations must be a positive integer')
+    if args_.simulation_length < 1:
+        raise ValueError('Simulation length must be a positive integer')
+    if args_.come_time[0] < 0:
+        raise ValueError('Come time lower bound must be a non-negative integer')
+    if args_.come_time[0] > args_.come_time[1]:
+        raise ValueError('Come time lower bound must not be lower than the upper one')
+    if args_.duration[0] < 0:
+        raise ValueError('Duration lower bound must be a non-negative integer')
+    if args_.duration[0] > args_.duration[1]:
+        raise ValueError('Duration lower bound must not be lower than the upper one')
+
+
 # Define and parse arguments
 ap = ArgumentParser(description='Generate scheduler simulation input data',
                     epilog='NOTE: values generated using Gaussian distribution are still confined to their respective '
@@ -27,6 +47,8 @@ ap.add_argument('-g', '--gaussian-duration', nargs=2, type=float, metavar=('MEAN
                 )
 ap.add_argument('-s', '--seed', help='Seed for the random number generator (default: use the current system time)')
 args = ap.parse_args()
+
+check_args(args)
 
 rng = ExtendedRandom(args.seed)
 

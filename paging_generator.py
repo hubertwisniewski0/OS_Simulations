@@ -6,6 +6,24 @@ from paging.sim.SimulationDescription import SimulationDescription
 from utils.Encoder import Encoder
 from utils.ExtendedRandom import ExtendedRandom
 
+
+def check_args(args_):
+    """
+    Check arguments' correctness
+    :param args_: argparse arguments namespace
+    """
+    if args_.simulations < 1:
+        raise ValueError('Number of simulations must be a positive integer')
+    if args_.simulation_length < 1:
+        raise ValueError('Simulation length must be a positive integer')
+    if args_.page_access[0] < 0:
+        raise ValueError('Page access lower bound must be a non-negative integer')
+    if args_.page_access[0] > args_.page_access[1]:
+        raise ValueError('Page access lower bound must not be lower than the upper one')
+    if not all(map(lambda x: x > 0, args_.memory_sizes)):
+        raise ValueError('All memory sizes must be positive integers')
+
+
 # Define and parse arguments
 ap = ArgumentParser(description='Generate paging simulation input data',
                     epilog='NOTE: values generated using Gaussian distribution are still confined to their respective '
@@ -23,6 +41,8 @@ ap.add_argument('-m', '--memory-sizes', nargs='+', type=int, metavar='SIZE', def
                 help='Memory sizes to use for simulation (default: 3 5 7)')
 ap.add_argument('-s', '--seed', help='Seed for the random number generator (default: use the current system time)')
 args = ap.parse_args()
+
+check_args(args)
 
 rng = ExtendedRandom(args.seed)
 
