@@ -3,6 +3,7 @@ import sys
 from concurrent.futures import ProcessPoolExecutor
 from typing import List, Dict, Optional
 
+import jsonschema
 from numpy import average
 
 from utils.Serializable import Serializable
@@ -32,6 +33,11 @@ class MemoryManagerSimulation(Serializable):
         """
         with open(input_file_name, 'rt') as f:
             input_data = json.load(f)
+
+        # Validate input data against the predefined JSON schema
+        with open('schemas/paging.schema.json', 'rt') as f:
+            input_data_schema = json.load(f)
+        jsonschema.validate(input_data, input_data_schema)
 
         for item in input_data:
             desc = SimulationDescription()
