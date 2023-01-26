@@ -21,8 +21,8 @@ def check_args(args_):
         raise ValueError('Come time lower bound must be a non-negative integer')
     if args_.come_time[0] > args_.come_time[1]:
         raise ValueError('Come time lower bound must not be lower than the upper one')
-    if args_.duration[0] < 0:
-        raise ValueError('Duration lower bound must be a non-negative integer')
+    if args_.duration[0] < 1:
+        raise ValueError('Duration lower bound must be a positive integer')
     if args_.duration[0] > args_.duration[1]:
         raise ValueError('Duration lower bound must not be lower than the upper one')
 
